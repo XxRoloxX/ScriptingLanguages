@@ -1,0 +1,4 @@
+usage: LOG PARSER [-h] --filepath FILEPATH
+                  [--minLogLevel {DEBUG,INFO,WARNING,ERROR,CRITICAL}]
+                  {ex2,ex4} ...
+LOG PARSER: error: argument --minLogLevel: invalid choice: 'Cd' (choose from 'DEBUG', 'INFO', 'WARNING', 'ERROR', 'CRITICAL')

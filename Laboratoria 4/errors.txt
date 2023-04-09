@@ -1,0 +1,141 @@
+Traceback (most recent call last):
+  File "/home/wieslaw/Kursy/Jezyki Skryptowe Laboratoria/Laboratoria 4/./Zadanie3.py", line 96, in <module>
+    writeToStandardOutput(fileAnalysis())
+  File "/home/wieslaw/Kursy/Jezyki Skryptowe Laboratoria/Laboratoria 4/./Zadanie3.py", line 89, in fileAnalysis
+    openFile(path,functions)
+  File "/home/wieslaw/Kursy/Jezyki Skryptowe Laboratoria/Laboratoria 4/./Zadanie3.py", line 79, in openFile
+    line = file.readline().strip()
+  File "/usr/lib/python3.10/codecs.py", line 322, in decode
+    (result, consumed) = self._buffer_decode(data, self.errors, final)
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0x8b in position 1: invalid start byte
+Traceback (most recent call last):
+  File "/home/wieslaw/Kursy/Jezyki Skryptowe Laboratoria/Laboratoria 4/./Zadanie3.py", line 96, in <module>
+    writeToStandardOutput(fileAnalysis())
+  File "/home/wieslaw/Kursy/Jezyki Skryptowe Laboratoria/Laboratoria 4/./Zadanie3.py", line 89, in fileAnalysis
+    openFile(path,functions)
+  File "/home/wieslaw/Kursy/Jezyki Skryptowe Laboratoria/Laboratoria 4/./Zadanie3.py", line 79, in openFile
+    line = file.readline().strip()
+  File "/usr/lib/python3.10/codecs.py", line 322, in decode
+    (result, consumed) = self._buffer_decode(data, self.errors, final)
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0x8b in position 1: invalid start byte
+Traceback (most recent call last):
+  File "/home/wieslaw/Kursy/Jezyki Skryptowe Laboratoria/Laboratoria 4/./Zadanie3.py", line 96, in <module>
+    writeToStandardOutput(fileAnalysis())
+  File "/home/wieslaw/Kursy/Jezyki Skryptowe Laboratoria/Laboratoria 4/./Zadanie3.py", line 89, in fileAnalysis
+    openFile(path,functions)
+  File "/home/wieslaw/Kursy/Jezyki Skryptowe Laboratoria/Laboratoria 4/./Zadanie3.py", line 79, in openFile
+    line = file.readline().strip()
+  File "/usr/lib/python3.10/codecs.py", line 322, in decode
+    (result, consumed) = self._buffer_decode(data, self.errors, final)
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0x8b in position 1: invalid start byte
+Traceback (most recent call last):
+  File "/home/wieslaw/Kursy/Jezyki Skryptowe Laboratoria/Laboratoria 4/./Zadanie3.py", line 96, in <module>
+    writeToStandardOutput(fileAnalysis())
+  File "/home/wieslaw/Kursy/Jezyki Skryptowe Laboratoria/Laboratoria 4/./Zadanie3.py", line 89, in fileAnalysis
+    openFile(path,functions)
+  File "/home/wieslaw/Kursy/Jezyki Skryptowe Laboratoria/Laboratoria 4/./Zadanie3.py", line 79, in openFile
+    line = file.readline().strip()
+  File "/usr/lib/python3.10/codecs.py", line 322, in decode
+    (result, consumed) = self._buffer_decode(data, self.errors, final)
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0x8b in position 1: invalid start byte
+Traceback (most recent call last):
+  File "/home/wieslaw/Kursy/Jezyki Skryptowe Laboratoria/Laboratoria 4/./Zadanie3.py", line 96, in <module>
+    writeToStandardOutput(fileAnalysis())
+  File "/home/wieslaw/Kursy/Jezyki Skryptowe Laboratoria/Laboratoria 4/./Zadanie3.py", line 89, in fileAnalysis
+    openFile(path,functions)
+  File "/home/wieslaw/Kursy/Jezyki Skryptowe Laboratoria/Laboratoria 4/./Zadanie3.py", line 79, in openFile
+    line = file.readline().strip()
+  File "/usr/lib/python3.10/codecs.py", line 322, in decode
+    (result, consumed) = self._buffer_decode(data, self.errors, final)
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0x8b in position 1: invalid start byte
+Traceback (most recent call last):
+  File "/home/wieslaw/Kursy/Jezyki Skryptowe Laboratoria/Laboratoria 4/./Zadanie3.py", line 96, in <module>
+    writeToStandardOutput(fileAnalysis())
+  File "/home/wieslaw/Kursy/Jezyki Skryptowe Laboratoria/Laboratoria 4/./Zadanie3.py", line 89, in fileAnalysis
+    openFile(path,functions)
+  File "/home/wieslaw/Kursy/Jezyki Skryptowe Laboratoria/Laboratoria 4/./Zadanie3.py", line 79, in openFile
+    line = file.readline().strip()
+  File "/usr/lib/python3.10/codecs.py", line 322, in decode
+    (result, consumed) = self._buffer_decode(data, self.errors, final)
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0x8b in position 1: invalid start byte
+Traceback (most recent call last):
+  File "/home/wieslaw/Kursy/Jezyki Skryptowe Laboratoria/Laboratoria 4/./Zadanie3.py", line 96, in <module>
+    writeToStandardOutput(fileAnalysis())
+  File "/home/wieslaw/Kursy/Jezyki Skryptowe Laboratoria/Laboratoria 4/./Zadanie3.py", line 89, in fileAnalysis
+    openFile(path,functions)
+  File "/home/wieslaw/Kursy/Jezyki Skryptowe Laboratoria/Laboratoria 4/./Zadanie3.py", line 79, in openFile
+    line = file.readline().strip()
+  File "/usr/lib/python3.10/codecs.py", line 322, in decode
+    (result, consumed) = self._buffer_decode(data, self.errors, final)
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xa7 in position 45: invalid start byte
+Traceback (most recent call last):
+  File "/home/wieslaw/Kursy/Jezyki Skryptowe Laboratoria/Laboratoria 4/./Zadanie3.py", line 96, in <module>
+    writeToStandardOutput(fileAnalysis())
+  File "/home/wieslaw/Kursy/Jezyki Skryptowe Laboratoria/Laboratoria 4/./Zadanie3.py", line 89, in fileAnalysis
+    openFile(path,functions)
+  File "/home/wieslaw/Kursy/Jezyki Skryptowe Laboratoria/Laboratoria 4/./Zadanie3.py", line 79, in openFile
+    line = file.readline().strip()
+  File "/usr/lib/python3.10/codecs.py", line 322, in decode
+    (result, consumed) = self._buffer_decode(data, self.errors, final)
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xfc in position 8: invalid start byte
+Traceback (most recent call last):
+  File "/home/wieslaw/Kursy/Jezyki Skryptowe Laboratoria/Laboratoria 4/./Zadanie3.py", line 96, in <module>
+    writeToStandardOutput(fileAnalysis())
+  File "/home/wieslaw/Kursy/Jezyki Skryptowe Laboratoria/Laboratoria 4/./Zadanie3.py", line 89, in fileAnalysis
+    openFile(path,functions)
+  File "/home/wieslaw/Kursy/Jezyki Skryptowe Laboratoria/Laboratoria 4/./Zadanie3.py", line 79, in openFile
+    line = file.readline().strip()
+  File "/usr/lib/python3.10/codecs.py", line 322, in decode
+    (result, consumed) = self._buffer_decode(data, self.errors, final)
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xa7 in position 9: invalid start byte
+Traceback (most recent call last):
+  File "/home/wieslaw/Kursy/Jezyki Skryptowe Laboratoria/Laboratoria 4/./Zadanie3.py", line 96, in <module>
+    writeToStandardOutput(fileAnalysis())
+  File "/home/wieslaw/Kursy/Jezyki Skryptowe Laboratoria/Laboratoria 4/./Zadanie3.py", line 89, in fileAnalysis
+    openFile(path,functions)
+  File "/home/wieslaw/Kursy/Jezyki Skryptowe Laboratoria/Laboratoria 4/./Zadanie3.py", line 79, in openFile
+    line = file.readline().strip()
+  File "/usr/lib/python3.10/codecs.py", line 322, in decode
+    (result, consumed) = self._buffer_decode(data, self.errors, final)
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0x9b in position 9: invalid start byte
+Traceback (most recent call last):
+  File "/home/wieslaw/Kursy/Jezyki Skryptowe Laboratoria/Laboratoria 4/./Zadanie3.py", line 96, in <module>
+    writeToStandardOutput(fileAnalysis())
+  File "/home/wieslaw/Kursy/Jezyki Skryptowe Laboratoria/Laboratoria 4/./Zadanie3.py", line 89, in fileAnalysis
+    openFile(path,functions)
+  File "/home/wieslaw/Kursy/Jezyki Skryptowe Laboratoria/Laboratoria 4/./Zadanie3.py", line 79, in openFile
+    line = file.readline().strip()
+  File "/usr/lib/python3.10/codecs.py", line 322, in decode
+    (result, consumed) = self._buffer_decode(data, self.errors, final)
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0x98 in position 8: invalid start byte
+Traceback (most recent call last):
+  File "/home/wieslaw/Kursy/Jezyki Skryptowe Laboratoria/Laboratoria 4/./Zadanie3.py", line 96, in <module>
+    writeToStandardOutput(fileAnalysis())
+  File "/home/wieslaw/Kursy/Jezyki Skryptowe Laboratoria/Laboratoria 4/./Zadanie3.py", line 89, in fileAnalysis
+    openFile(path,functions)
+  File "/home/wieslaw/Kursy/Jezyki Skryptowe Laboratoria/Laboratoria 4/./Zadanie3.py", line 79, in openFile
+    line = file.readline().strip()
+  File "/usr/lib/python3.10/codecs.py", line 322, in decode
+    (result, consumed) = self._buffer_decode(data, self.errors, final)
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xa9 in position 8: invalid start byte
+Traceback (most recent call last):
+  File "/home/wieslaw/Kursy/Jezyki Skryptowe Laboratoria/Laboratoria 4/./Zadanie3.py", line 96, in <module>
+    writeToStandardOutput(fileAnalysis())
+  File "/home/wieslaw/Kursy/Jezyki Skryptowe Laboratoria/Laboratoria 4/./Zadanie3.py", line 89, in fileAnalysis
+    openFile(path,functions)
+  File "/home/wieslaw/Kursy/Jezyki Skryptowe Laboratoria/Laboratoria 4/./Zadanie3.py", line 79, in openFile
+    line = file.readline().strip()
+  File "/usr/lib/python3.10/codecs.py", line 322, in decode
+    (result, consumed) = self._buffer_decode(data, self.errors, final)
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xa3 in position 9: invalid start byte
+Traceback (most recent call last):
+  File "/home/wieslaw/Kursy/Jezyki Skryptowe Laboratoria/Laboratoria 4/./Zadanie3.py", line 96, in <module>
+    writeToStandardOutput(fileAnalysis())
+  File "/home/wieslaw/Kursy/Jezyki Skryptowe Laboratoria/Laboratoria 4/./Zadanie3.py", line 89, in fileAnalysis
+    openFile(path,functions)
+  File "/home/wieslaw/Kursy/Jezyki Skryptowe Laboratoria/Laboratoria 4/./Zadanie3.py", line 79, in openFile
+    line = file.readline().strip()
+  File "/usr/lib/python3.10/codecs.py", line 322, in decode
+    (result, consumed) = self._buffer_decode(data, self.errors, final)
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0x8f in position 8: invalid start byte
+Not able to parse binary file: /home/wieslaw/Kursy/Jezyki Skryptowe Laboratoria/Laboratoria 4/fiol/2023-03-30-17-04-56-.tar.gzNot able to parse binary file: /home/wieslaw/Kursy/Jezyki Skryptowe Laboratoria/Laboratoria 4/fiol/2023-04-03-13-06-35-.tar.gzNot able to parse binary file: /home/wieslaw/Kursy/Jezyki Skryptowe Laboratoria/Laboratoria 4/fiol/2023-03-30-17-05-05-.tar.gzNot able to parse binary file: /home/wieslaw/Kursy/Jezyki Skryptowe Laboratoria/Laboratoria 4/fiol/2023-03-30-17-14-49-.tar.gzNot able to parse binary file: /home/wieslaw/Kursy/Jezyki Skryptowe Laboratoria/Laboratoria 4/fiol/2023-03-30-17-16-10-.tar.gzNot able to parse binary file: /home/wieslaw/Kursy/Jezyki Skryptowe Laboratoria/Laboratoria 4/fiol/2023-03-30-17-05-07-.tar.gzNot able to parse binary file: /home/wieslaw/Kursy/Jezyki Skryptowe Laboratoria/Laboratoria 4/AdamLamers.zipNot able to parse binary file: /home/wieslaw/Kursy/Jezyki Skryptowe Laboratoria/Laboratoria 4/__pycache__/utils.cpython-310.pycNot able to parse binary file: /home/wieslaw/Kursy/Jezyki Skryptowe Laboratoria/Laboratoria 4/__pycache__/backup.cpython-310.pycNot able to parse binary file: /home/wieslaw/Kursy/Jezyki Skryptowe Laboratoria/Laboratoria 4/__pycache__/validation.cpython-310.pycNot able to parse binary file: /home/wieslaw/Kursy/Jezyki Skryptowe Laboratoria/Laboratoria 4/__pycache__/logsManipulation.cpython-310.pycNot able to parse binary file: /home/wieslaw/Kursy/Jezyki Skryptowe Laboratoria/Laboratoria 4/__pycache__/Zadanie1.cpython-310.pycNot able to parse binary file: /home/wieslaw/Kursy/Jezyki Skryptowe Laboratoria/Laboratoria 4/__pycache__/filesManipulation.cpython-310.pycNot able to parse binary file: /home/wieslaw/Kursy/Jezyki Skryptowe Laboratoria/Laboratoria 4/__pycache__/standardInputOutput.cpython-310.pyc
