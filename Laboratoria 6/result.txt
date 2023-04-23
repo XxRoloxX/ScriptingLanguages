@@ -1,0 +1,15 @@
+Type: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=6, minute=55, second=46), użytkownik: None, adres ip: 173.234.31.186
+Dec 10 06:55:46 LabSZ sshd[24200]: reverse mapping checking getaddrinfo for ns.marryaldkfaczcz.com [173.234.31.186] failed - POSSIBLE BREAK-IN ATTEMPT!
+
+
+Type: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=6, minute=55, second=46), użytkownik: webmaster, adres ip: None
+Dec 10 06:55:46 LabSZ sshd[24200]: input_userauth_request: invalid user webmaster [preauth]
+
+
+Type: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=6, minute=55, second=46), użytkownik: None, adres ip: 173.234.31.186
+Dec 10 06:55:46 LabSZ sshd[24200]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=173.234.31.186 
+
+

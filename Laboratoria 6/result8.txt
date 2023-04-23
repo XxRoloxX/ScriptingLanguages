@@ -1,0 +1,2020 @@
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=6, minute=55, second=46), użytkownik: None, adres ip: 173.234.31.186
+Dec 10 06:55:46 LabSZ sshd[24200]: reverse mapping checking getaddrinfo for ns.marryaldkfaczcz.com [173.234.31.186] failed - POSSIBLE BREAK-IN ATTEMPT!
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=6, minute=55, second=46), użytkownik: webmaster, adres ip: 173.234.31.186
+Dec 10 06:55:46 LabSZ sshd[24200]: Invalid user webmaster from 173.234.31.186
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=6, minute=55, second=46), użytkownik: webmaster, adres ip: None
+Dec 10 06:55:46 LabSZ sshd[24200]: input_userauth_request: invalid user webmaster [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=6, minute=55, second=46), użytkownik: unknown, adres ip: None
+Dec 10 06:55:46 LabSZ sshd[24200]: pam_unix(sshd:auth): check pass; user unknown
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=6, minute=55, second=46), użytkownik: None, adres ip: 173.234.31.186
+Dec 10 06:55:46 LabSZ sshd[24200]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=173.234.31.186 
+
+
+TrueUsername: webmaster, last Login: SimpleDate(month=11, day=10, hour=6, minute=55, second=48)
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=6, minute=55, second=48), użytkownik: None, adres ip: 173.234.31.186
+Dec 10 06:55:48 LabSZ sshd[24200]: Connection closed by 173.234.31.186 [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=7, minute=2, second=47), użytkownik: None, adres ip: 212.47.254.145
+Dec 10 07:02:47 LabSZ sshd[24203]: Connection closed by 212.47.254.145 [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=7, minute=7, second=38), użytkownik: test9, adres ip: 52.80.34.196
+Dec 10 07:07:38 LabSZ sshd[24206]: Invalid user test9 from 52.80.34.196
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=7, minute=7, second=38), użytkownik: test9, adres ip: None
+Dec 10 07:07:38 LabSZ sshd[24206]: input_userauth_request: invalid user test9 [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=7, minute=7, second=38), użytkownik: unknown, adres ip: None
+Dec 10 07:07:38 LabSZ sshd[24206]: pam_unix(sshd:auth): check pass; user unknown
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=7, minute=7, second=38), użytkownik: None, adres ip: None
+Dec 10 07:07:38 LabSZ sshd[24206]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=ec2-52-80-34-196.cn-north-1.compute.amazonaws.com.cn 
+
+
+TrueUsername: test9, last Login: SimpleDate(month=11, day=10, hour=7, minute=7, second=45)
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=7, minute=7, second=45), użytkownik: None, adres ip: 52.80.34.196
+Dec 10 07:07:45 LabSZ sshd[24206]: Received disconnect from 52.80.34.196: 11: Bye Bye [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=7, minute=8, second=28), użytkownik: None, adres ip: 173.234.31.186
+Dec 10 07:08:28 LabSZ sshd[24208]: reverse mapping checking getaddrinfo for ns.marryaldkfaczcz.com [173.234.31.186] failed - POSSIBLE BREAK-IN ATTEMPT!
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=7, minute=8, second=28), użytkownik: webmaster, adres ip: 173.234.31.186
+Dec 10 07:08:28 LabSZ sshd[24208]: Invalid user webmaster from 173.234.31.186
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=7, minute=8, second=28), użytkownik: webmaster, adres ip: None
+Dec 10 07:08:28 LabSZ sshd[24208]: input_userauth_request: invalid user webmaster [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=7, minute=8, second=28), użytkownik: unknown, adres ip: None
+Dec 10 07:08:28 LabSZ sshd[24208]: pam_unix(sshd:auth): check pass; user unknown
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=7, minute=8, second=28), użytkownik: None, adres ip: 173.234.31.186
+Dec 10 07:08:28 LabSZ sshd[24208]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=173.234.31.186 
+
+
+TrueUsername: webmaster, last Login: SimpleDate(month=11, day=10, hour=7, minute=8, second=30)
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=7, minute=8, second=30), użytkownik: None, adres ip: 173.234.31.186
+Dec 10 07:08:30 LabSZ sshd[24208]: Connection closed by 173.234.31.186 [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=7, minute=11, second=42), użytkownik: chen, adres ip: 202.100.179.208
+Dec 10 07:11:42 LabSZ sshd[24224]: Invalid user chen from 202.100.179.208
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=7, minute=11, second=42), użytkownik: chen, adres ip: None
+Dec 10 07:11:42 LabSZ sshd[24224]: input_userauth_request: invalid user chen [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=7, minute=11, second=42), użytkownik: unknown, adres ip: None
+Dec 10 07:11:42 LabSZ sshd[24224]: pam_unix(sshd:auth): check pass; user unknown
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=7, minute=11, second=42), użytkownik: None, adres ip: 202.100.179.208
+Dec 10 07:11:42 LabSZ sshd[24224]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=202.100.179.208 
+
+
+TrueUsername: chen, last Login: SimpleDate(month=11, day=10, hour=7, minute=11, second=44)
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=7, minute=11, second=44), użytkownik: None, adres ip: 202.100.179.208
+Dec 10 07:11:44 LabSZ sshd[24224]: Received disconnect from 202.100.179.208: 11: Bye Bye [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=7, minute=13, second=31), użytkownik: root, adres ip: 5.36.59.76
+Dec 10 07:13:31 LabSZ sshd[24227]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=5.36.59.76.dynamic-dsl-ip.omantel.net.om  user=root
+
+
+FalseUsername: None, last Login: SimpleDate(month=11, day=10, hour=7, minute=13, second=43)
+FalseUsername: None, last Login: SimpleDate(month=11, day=10, hour=7, minute=13, second=56)
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=7, minute=13, second=56), użytkownik: None, adres ip: None
+Dec 10 07:13:56 LabSZ sshd[24227]: Disconnecting: Too many authentication failures for root [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=7, minute=13, second=56), użytkownik: root, adres ip: 5.36.59.76
+Dec 10 07:13:56 LabSZ sshd[24227]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=5.36.59.76.dynamic-dsl-ip.omantel.net.om  user=root
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=7, minute=13, second=56), użytkownik: None, adres ip: None
+Dec 10 07:13:56 LabSZ sshd[24227]: PAM service(sshd) ignoring max retries; 6 > 3
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=7, minute=27, second=50), użytkownik: root, adres ip: 112.95.230.3
+Dec 10 07:27:50 LabSZ sshd[24235]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=112.95.230.3  user=root
+
+
+FalseUsername: None, last Login: SimpleDate(month=11, day=10, hour=7, minute=27, second=52)
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=7, minute=27, second=52), użytkownik: None, adres ip: 112.95.230.3
+Dec 10 07:27:52 LabSZ sshd[24235]: Received disconnect from 112.95.230.3: 11: Bye Bye [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=7, minute=27, second=53), użytkownik: root, adres ip: 112.95.230.3
+Dec 10 07:27:53 LabSZ sshd[24237]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=112.95.230.3  user=root
+
+
+FalseUsername: None, last Login: SimpleDate(month=11, day=10, hour=7, minute=27, second=55)
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=7, minute=27, second=55), użytkownik: None, adres ip: 112.95.230.3
+Dec 10 07:27:55 LabSZ sshd[24237]: Received disconnect from 112.95.230.3: 11: Bye Bye [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=7, minute=27, second=55), użytkownik: root, adres ip: 112.95.230.3
+Dec 10 07:27:55 LabSZ sshd[24239]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=112.95.230.3  user=root
+
+
+FalseUsername: None, last Login: SimpleDate(month=11, day=10, hour=7, minute=27, second=58)
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=7, minute=27, second=58), użytkownik: None, adres ip: 112.95.230.3
+Dec 10 07:27:58 LabSZ sshd[24239]: Received disconnect from 112.95.230.3: 11: Bye Bye [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=7, minute=27, second=58), użytkownik: root, adres ip: 112.95.230.3
+Dec 10 07:27:58 LabSZ sshd[24241]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=112.95.230.3  user=root
+
+
+FalseUsername: None, last Login: SimpleDate(month=11, day=10, hour=7, minute=28, second=0)
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=7, minute=28, second=0), użytkownik: None, adres ip: 112.95.230.3
+Dec 10 07:28:00 LabSZ sshd[24241]: Received disconnect from 112.95.230.3: 11: Bye Bye [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=7, minute=28, second=1), użytkownik: root, adres ip: 112.95.230.3
+Dec 10 07:28:01 LabSZ sshd[24243]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=112.95.230.3  user=root
+
+
+FalseUsername: None, last Login: SimpleDate(month=11, day=10, hour=7, minute=28, second=3)
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=7, minute=28, second=3), użytkownik: None, adres ip: 112.95.230.3
+Dec 10 07:28:03 LabSZ sshd[24243]: Received disconnect from 112.95.230.3: 11: Bye Bye [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=7, minute=28, second=3), użytkownik: pgadmin, adres ip: 112.95.230.3
+Dec 10 07:28:03 LabSZ sshd[24245]: Invalid user pgadmin from 112.95.230.3
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=7, minute=28, second=3), użytkownik: pgadmin, adres ip: None
+Dec 10 07:28:03 LabSZ sshd[24245]: input_userauth_request: invalid user pgadmin [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=7, minute=28, second=3), użytkownik: unknown, adres ip: None
+Dec 10 07:28:03 LabSZ sshd[24245]: pam_unix(sshd:auth): check pass; user unknown
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=7, minute=28, second=3), użytkownik: None, adres ip: 112.95.230.3
+Dec 10 07:28:03 LabSZ sshd[24245]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=112.95.230.3 
+
+
+TrueUsername: pgadmin, last Login: SimpleDate(month=11, day=10, hour=7, minute=28, second=5)
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=7, minute=28, second=5), użytkownik: None, adres ip: 112.95.230.3
+Dec 10 07:28:05 LabSZ sshd[24245]: Received disconnect from 112.95.230.3: 11: Bye Bye [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=7, minute=28, second=6), użytkownik: root, adres ip: 112.95.230.3
+Dec 10 07:28:06 LabSZ sshd[24247]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=112.95.230.3  user=root
+
+
+FalseUsername: None, last Login: SimpleDate(month=11, day=10, hour=7, minute=28, second=8)
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=7, minute=28, second=8), użytkownik: None, adres ip: 112.95.230.3
+Dec 10 07:28:08 LabSZ sshd[24247]: Received disconnect from 112.95.230.3: 11: Bye Bye [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=7, minute=28, second=8), użytkownik: root, adres ip: 112.95.230.3
+Dec 10 07:28:08 LabSZ sshd[24249]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=112.95.230.3  user=root
+
+
+FalseUsername: None, last Login: SimpleDate(month=11, day=10, hour=7, minute=28, second=10)
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=7, minute=28, second=10), użytkownik: None, adres ip: 112.95.230.3
+Dec 10 07:28:10 LabSZ sshd[24249]: Received disconnect from 112.95.230.3: 11: Bye Bye [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=7, minute=28, second=10), użytkownik: root, adres ip: 112.95.230.3
+Dec 10 07:28:10 LabSZ sshd[24251]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=112.95.230.3  user=root
+
+
+FalseUsername: None, last Login: SimpleDate(month=11, day=10, hour=7, minute=28, second=12)
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=7, minute=28, second=12), użytkownik: None, adres ip: 112.95.230.3
+Dec 10 07:28:12 LabSZ sshd[24251]: Received disconnect from 112.95.230.3: 11: Bye Bye [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=7, minute=28, second=12), użytkownik: root, adres ip: 112.95.230.3
+Dec 10 07:28:12 LabSZ sshd[24253]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=112.95.230.3  user=root
+
+
+FalseUsername: None, last Login: SimpleDate(month=11, day=10, hour=7, minute=28, second=14)
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=7, minute=28, second=14), użytkownik: None, adres ip: 112.95.230.3
+Dec 10 07:28:14 LabSZ sshd[24253]: Received disconnect from 112.95.230.3: 11: Bye Bye [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=7, minute=28, second=14), użytkownik: root, adres ip: 112.95.230.3
+Dec 10 07:28:14 LabSZ sshd[24255]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=112.95.230.3  user=root
+
+
+FalseUsername: None, last Login: SimpleDate(month=11, day=10, hour=7, minute=28, second=16)
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=7, minute=28, second=16), użytkownik: None, adres ip: 112.95.230.3
+Dec 10 07:28:16 LabSZ sshd[24255]: Received disconnect from 112.95.230.3: 11: Bye Bye [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=7, minute=28, second=16), użytkownik: root, adres ip: 112.95.230.3
+Dec 10 07:28:16 LabSZ sshd[24257]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=112.95.230.3  user=root
+
+
+FalseUsername: None, last Login: SimpleDate(month=11, day=10, hour=7, minute=28, second=18)
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=7, minute=28, second=18), użytkownik: None, adres ip: 112.95.230.3
+Dec 10 07:28:18 LabSZ sshd[24257]: Received disconnect from 112.95.230.3: 11: Bye Bye [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=7, minute=28, second=19), użytkownik: root, adres ip: 112.95.230.3
+Dec 10 07:28:19 LabSZ sshd[24259]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=112.95.230.3  user=root
+
+
+FalseUsername: None, last Login: SimpleDate(month=11, day=10, hour=7, minute=28, second=21)
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=7, minute=28, second=21), użytkownik: None, adres ip: 112.95.230.3
+Dec 10 07:28:21 LabSZ sshd[24259]: Received disconnect from 112.95.230.3: 11: Bye Bye [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=7, minute=28, second=21), użytkownik: root, adres ip: 112.95.230.3
+Dec 10 07:28:21 LabSZ sshd[24261]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=112.95.230.3  user=root
+
+
+FalseUsername: None, last Login: SimpleDate(month=11, day=10, hour=7, minute=28, second=23)
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=7, minute=28, second=23), użytkownik: None, adres ip: 112.95.230.3
+Dec 10 07:28:23 LabSZ sshd[24261]: Received disconnect from 112.95.230.3: 11: Bye Bye [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=7, minute=28, second=23), użytkownik: root, adres ip: 112.95.230.3
+Dec 10 07:28:23 LabSZ sshd[24263]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=112.95.230.3  user=root
+
+
+FalseUsername: None, last Login: SimpleDate(month=11, day=10, hour=7, minute=28, second=25)
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=7, minute=28, second=25), użytkownik: None, adres ip: 112.95.230.3
+Dec 10 07:28:25 LabSZ sshd[24263]: Received disconnect from 112.95.230.3: 11: Bye Bye [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=7, minute=28, second=25), użytkownik: utsims, adres ip: 112.95.230.3
+Dec 10 07:28:25 LabSZ sshd[24265]: Invalid user utsims from 112.95.230.3
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=7, minute=28, second=25), użytkownik: utsims, adres ip: None
+Dec 10 07:28:25 LabSZ sshd[24265]: input_userauth_request: invalid user utsims [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=7, minute=28, second=25), użytkownik: unknown, adres ip: None
+Dec 10 07:28:25 LabSZ sshd[24265]: pam_unix(sshd:auth): check pass; user unknown
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=7, minute=28, second=25), użytkownik: None, adres ip: 112.95.230.3
+Dec 10 07:28:25 LabSZ sshd[24265]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=112.95.230.3 
+
+
+TrueUsername: utsims, last Login: SimpleDate(month=11, day=10, hour=7, minute=28, second=28)
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=7, minute=28, second=28), użytkownik: None, adres ip: 112.95.230.3
+Dec 10 07:28:28 LabSZ sshd[24265]: Received disconnect from 112.95.230.3: 11: Bye Bye [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=7, minute=28, second=28), użytkownik: root, adres ip: 112.95.230.3
+Dec 10 07:28:28 LabSZ sshd[24267]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=112.95.230.3  user=root
+
+
+FalseUsername: None, last Login: SimpleDate(month=11, day=10, hour=7, minute=28, second=30)
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=7, minute=28, second=30), użytkownik: None, adres ip: 112.95.230.3
+Dec 10 07:28:30 LabSZ sshd[24267]: Received disconnect from 112.95.230.3: 11: Bye Bye [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=7, minute=28, second=31), użytkownik: root, adres ip: 112.95.230.3
+Dec 10 07:28:31 LabSZ sshd[24269]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=112.95.230.3  user=root
+
+
+FalseUsername: None, last Login: SimpleDate(month=11, day=10, hour=7, minute=28, second=33)
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=7, minute=28, second=33), użytkownik: None, adres ip: 112.95.230.3
+Dec 10 07:28:33 LabSZ sshd[24269]: Received disconnect from 112.95.230.3: 11: Bye Bye [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=7, minute=28, second=33), użytkownik: root, adres ip: 112.95.230.3
+Dec 10 07:28:33 LabSZ sshd[24271]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=112.95.230.3  user=root
+
+
+FalseUsername: None, last Login: SimpleDate(month=11, day=10, hour=7, minute=28, second=35)
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=7, minute=28, second=35), użytkownik: None, adres ip: 112.95.230.3
+Dec 10 07:28:35 LabSZ sshd[24271]: Received disconnect from 112.95.230.3: 11: Bye Bye [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=7, minute=28, second=35), użytkownik: root, adres ip: 112.95.230.3
+Dec 10 07:28:35 LabSZ sshd[24273]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=112.95.230.3  user=root
+
+
+FalseUsername: None, last Login: SimpleDate(month=11, day=10, hour=7, minute=28, second=37)
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=7, minute=28, second=37), użytkownik: None, adres ip: 112.95.230.3
+Dec 10 07:28:37 LabSZ sshd[24273]: Received disconnect from 112.95.230.3: 11: Bye Bye [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=7, minute=28, second=37), użytkownik: root, adres ip: 112.95.230.3
+Dec 10 07:28:37 LabSZ sshd[24275]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=112.95.230.3  user=root
+
+
+FalseUsername: None, last Login: SimpleDate(month=11, day=10, hour=7, minute=28, second=39)
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=7, minute=28, second=39), użytkownik: None, adres ip: 112.95.230.3
+Dec 10 07:28:39 LabSZ sshd[24275]: Received disconnect from 112.95.230.3: 11: Bye Bye [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=7, minute=28, second=40), użytkownik: root, adres ip: 112.95.230.3
+Dec 10 07:28:40 LabSZ sshd[24277]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=112.95.230.3  user=root
+
+
+FalseUsername: None, last Login: SimpleDate(month=11, day=10, hour=7, minute=28, second=42)
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=7, minute=28, second=42), użytkownik: None, adres ip: 112.95.230.3
+Dec 10 07:28:42 LabSZ sshd[24277]: Received disconnect from 112.95.230.3: 11: Bye Bye [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=7, minute=28, second=42), użytkownik: root, adres ip: 112.95.230.3
+Dec 10 07:28:42 LabSZ sshd[24279]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=112.95.230.3  user=root
+
+
+FalseUsername: None, last Login: SimpleDate(month=11, day=10, hour=7, minute=28, second=44)
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=7, minute=28, second=44), użytkownik: None, adres ip: 112.95.230.3
+Dec 10 07:28:44 LabSZ sshd[24279]: Received disconnect from 112.95.230.3: 11: Bye Bye [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=7, minute=28, second=45), użytkownik: root, adres ip: 112.95.230.3
+Dec 10 07:28:45 LabSZ sshd[24281]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=112.95.230.3  user=root
+
+
+FalseUsername: None, last Login: SimpleDate(month=11, day=10, hour=7, minute=28, second=46)
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=7, minute=28, second=46), użytkownik: None, adres ip: 112.95.230.3
+Dec 10 07:28:46 LabSZ sshd[24281]: Received disconnect from 112.95.230.3: 11: Bye Bye [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=7, minute=28, second=47), użytkownik: root, adres ip: 112.95.230.3
+Dec 10 07:28:47 LabSZ sshd[24283]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=112.95.230.3  user=root
+
+
+FalseUsername: None, last Login: SimpleDate(month=11, day=10, hour=7, minute=28, second=49)
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=7, minute=28, second=49), użytkownik: None, adres ip: 112.95.230.3
+Dec 10 07:28:49 LabSZ sshd[24283]: Received disconnect from 112.95.230.3: 11: Bye Bye [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=7, minute=28, second=49), użytkownik: root, adres ip: 112.95.230.3
+Dec 10 07:28:49 LabSZ sshd[24285]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=112.95.230.3  user=root
+
+
+FalseUsername: None, last Login: SimpleDate(month=11, day=10, hour=7, minute=28, second=51)
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=7, minute=28, second=51), użytkownik: None, adres ip: 112.95.230.3
+Dec 10 07:28:51 LabSZ sshd[24285]: Received disconnect from 112.95.230.3: 11: Bye Bye [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=7, minute=32, second=24), użytkownik: root, adres ip: 123.235.32.19
+Dec 10 07:32:24 LabSZ sshd[24287]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=123.235.32.19  user=root
+
+
+FalseUsername: None, last Login: SimpleDate(month=11, day=10, hour=7, minute=32, second=27)
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=7, minute=32, second=27), użytkownik: None, adres ip: 123.235.32.19
+Dec 10 07:32:27 LabSZ sshd[24287]: Received disconnect from 123.235.32.19: 11: Bye Bye [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=7, minute=32, second=27), użytkownik: root, adres ip: 123.235.32.19
+Dec 10 07:32:27 LabSZ sshd[24289]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=123.235.32.19  user=root
+
+
+FalseUsername: None, last Login: SimpleDate(month=11, day=10, hour=7, minute=32, second=29)
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=7, minute=32, second=29), użytkownik: None, adres ip: 123.235.32.19
+Dec 10 07:32:29 LabSZ sshd[24289]: Received disconnect from 123.235.32.19: 11: Bye Bye [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=7, minute=33, second=58), użytkownik: root, adres ip: 123.235.32.19
+Dec 10 07:33:58 LabSZ sshd[24291]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=123.235.32.19  user=root
+
+
+FalseUsername: None, last Login: SimpleDate(month=11, day=10, hour=7, minute=34, second=0)
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=7, minute=34, second=0), użytkownik: None, adres ip: 123.235.32.19
+Dec 10 07:34:00 LabSZ sshd[24291]: Received disconnect from 123.235.32.19: 11: Bye Bye [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=7, minute=34, second=2), użytkownik: root, adres ip: 123.235.32.19
+Dec 10 07:34:02 LabSZ sshd[24293]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=123.235.32.19  user=root
+
+
+FalseUsername: None, last Login: SimpleDate(month=11, day=10, hour=7, minute=34, second=4)
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=7, minute=34, second=6), użytkownik: None, adres ip: 123.235.32.19
+Dec 10 07:34:06 LabSZ sshd[24293]: Received disconnect from 123.235.32.19: 11: Bye Bye [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=7, minute=34, second=7), użytkownik: root, adres ip: 123.235.32.19
+Dec 10 07:34:07 LabSZ sshd[24295]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=123.235.32.19  user=root
+
+
+FalseUsername: None, last Login: SimpleDate(month=11, day=10, hour=7, minute=34, second=10)
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=7, minute=34, second=10), użytkownik: None, adres ip: 123.235.32.19
+Dec 10 07:34:10 LabSZ sshd[24295]: Received disconnect from 123.235.32.19: 11: Bye Bye [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=7, minute=34, second=13), użytkownik: root, adres ip: 123.235.32.19
+Dec 10 07:34:13 LabSZ sshd[24297]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=123.235.32.19  user=root
+
+
+FalseUsername: None, last Login: SimpleDate(month=11, day=10, hour=7, minute=34, second=15)
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=7, minute=34, second=15), użytkownik: None, adres ip: 123.235.32.19
+Dec 10 07:34:15 LabSZ sshd[24297]: Received disconnect from 123.235.32.19: 11: Bye Bye [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=7, minute=34, second=21), użytkownik: root, adres ip: 123.235.32.19
+Dec 10 07:34:21 LabSZ sshd[24299]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=123.235.32.19  user=root
+
+
+FalseUsername: None, last Login: SimpleDate(month=11, day=10, hour=7, minute=34, second=23)
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=7, minute=34, second=24), użytkownik: None, adres ip: 123.235.32.19
+Dec 10 07:34:24 LabSZ sshd[24299]: Received disconnect from 123.235.32.19: 11: Bye Bye [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=7, minute=34, second=33), użytkownik: None, adres ip: 123.235.32.19
+Dec 10 07:34:33 LabSZ sshd[24301]: Did not receive identification string from 123.235.32.19
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=7, minute=35, second=15), użytkownik: None, adres ip: 177.79.82.136
+Dec 10 07:35:15 LabSZ sshd[24303]: Did not receive identification string from 177.79.82.136
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=7, minute=42, second=49), użytkownik: inspur, adres ip: 183.136.162.51
+Dec 10 07:42:49 LabSZ sshd[24318]: Invalid user inspur from 183.136.162.51
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=7, minute=42, second=49), użytkownik: inspur, adres ip: None
+Dec 10 07:42:49 LabSZ sshd[24318]: input_userauth_request: invalid user inspur [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=7, minute=42, second=49), użytkownik: unknown, adres ip: None
+Dec 10 07:42:49 LabSZ sshd[24318]: pam_unix(sshd:auth): check pass; user unknown
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=7, minute=42, second=49), użytkownik: None, adres ip: 183.136.162.51
+Dec 10 07:42:49 LabSZ sshd[24318]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=183.136.162.51 
+
+
+TrueUsername: inspur, last Login: SimpleDate(month=11, day=10, hour=7, minute=42, second=51)
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=7, minute=42, second=51), użytkownik: None, adres ip: 183.136.162.51
+Dec 10 07:42:51 LabSZ sshd[24318]: Received disconnect from 183.136.162.51: 11: Bye Bye [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=7, minute=48, second=0), użytkownik: None, adres ip: 191.210.223.172
+Dec 10 07:48:00 LabSZ sshd[24321]: reverse mapping checking getaddrinfo for 191-210-223-172.user.vivozap.com.br [191.210.223.172] failed - POSSIBLE BREAK-IN ATTEMPT!
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=7, minute=48, second=0), użytkownik: root, adres ip: 191.210.223.172
+Dec 10 07:48:00 LabSZ sshd[24321]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=191.210.223.172  user=root
+
+
+FalseUsername: None, last Login: SimpleDate(month=11, day=10, hour=7, minute=48, second=3)
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=7, minute=48, second=3), użytkownik: None, adres ip: 191.210.223.172
+Dec 10 07:48:03 LabSZ sshd[24321]: Connection closed by 191.210.223.172 [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=7, minute=51, second=9), użytkownik: None, adres ip: 195.154.37.122
+Dec 10 07:51:09 LabSZ sshd[24323]: Did not receive identification string from 195.154.37.122
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=7, minute=51, second=12), użytkownik: None, adres ip: 195.154.37.122
+Dec 10 07:51:12 LabSZ sshd[24324]: reverse mapping checking getaddrinfo for 195-154-37-122.rev.poneytelecom.eu [195.154.37.122] failed - POSSIBLE BREAK-IN ATTEMPT!
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=7, minute=51, second=12), użytkownik: support, adres ip: 195.154.37.122
+Dec 10 07:51:12 LabSZ sshd[24324]: Invalid user support from 195.154.37.122
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=7, minute=51, second=12), użytkownik: support, adres ip: None
+Dec 10 07:51:12 LabSZ sshd[24324]: input_userauth_request: invalid user support [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=7, minute=51, second=12), użytkownik: unknown, adres ip: None
+Dec 10 07:51:12 LabSZ sshd[24324]: pam_unix(sshd:auth): check pass; user unknown
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=7, minute=51, second=12), użytkownik: None, adres ip: 195.154.37.122
+Dec 10 07:51:12 LabSZ sshd[24324]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=195.154.37.122 
+
+
+TrueUsername: support, last Login: SimpleDate(month=11, day=10, hour=7, minute=51, second=15)
+TrueType: ERRORData rządania: SimpleDate(month=11, day=10, hour=7, minute=51, second=15), użytkownik: None, adres ip: 195.154.37.122
+Dec 10 07:51:15 LabSZ sshd[24324]: error: Received disconnect from 195.154.37.122: 3: com.jcraft.jsch.JSchException: Auth fail [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=7, minute=51, second=17), użytkownik: None, adres ip: 195.154.37.122
+Dec 10 07:51:17 LabSZ sshd[24326]: reverse mapping checking getaddrinfo for 195-154-37-122.rev.poneytelecom.eu [195.154.37.122] failed - POSSIBLE BREAK-IN ATTEMPT!
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=7, minute=51, second=18), użytkownik: uucp, adres ip: 195.154.37.122
+Dec 10 07:51:18 LabSZ sshd[24326]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=195.154.37.122  user=uucp
+
+
+FalseUsername: None, last Login: SimpleDate(month=11, day=10, hour=7, minute=51, second=20)
+TrueType: ERRORData rządania: SimpleDate(month=11, day=10, hour=7, minute=51, second=20), użytkownik: None, adres ip: 195.154.37.122
+Dec 10 07:51:20 LabSZ sshd[24326]: error: Received disconnect from 195.154.37.122: 3: com.jcraft.jsch.JSchException: Auth fail [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=7, minute=53, second=26), użytkownik: None, adres ip: 194.190.163.22
+Dec 10 07:53:26 LabSZ sshd[24329]: Connection closed by 194.190.163.22 [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=7, minute=55, second=55), użytkownik: test, adres ip: 52.80.34.196
+Dec 10 07:55:55 LabSZ sshd[24331]: Invalid user test from 52.80.34.196
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=7, minute=55, second=55), użytkownik: test, adres ip: None
+Dec 10 07:55:55 LabSZ sshd[24331]: input_userauth_request: invalid user test [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=7, minute=55, second=55), użytkownik: unknown, adres ip: None
+Dec 10 07:55:55 LabSZ sshd[24331]: pam_unix(sshd:auth): check pass; user unknown
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=7, minute=55, second=55), użytkownik: None, adres ip: None
+Dec 10 07:55:55 LabSZ sshd[24331]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=ec2-52-80-34-196.cn-north-1.compute.amazonaws.com.cn 
+
+
+TrueUsername: test, last Login: SimpleDate(month=11, day=10, hour=7, minute=56, second=2)
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=7, minute=56, second=2), użytkownik: None, adres ip: 52.80.34.196
+Dec 10 07:56:02 LabSZ sshd[24331]: Received disconnect from 52.80.34.196: 11: Bye Bye [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=7, minute=56, second=13), użytkownik: None, adres ip: 103.207.39.165
+Dec 10 07:56:13 LabSZ sshd[24333]: Did not receive identification string from 103.207.39.165
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=7, minute=56, second=14), użytkownik: support, adres ip: 103.207.39.165
+Dec 10 07:56:14 LabSZ sshd[24334]: Invalid user support from 103.207.39.165
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=7, minute=56, second=14), użytkownik: support, adres ip: None
+Dec 10 07:56:14 LabSZ sshd[24334]: input_userauth_request: invalid user support [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=7, minute=56, second=14), użytkownik: unknown, adres ip: None
+Dec 10 07:56:14 LabSZ sshd[24334]: pam_unix(sshd:auth): check pass; user unknown
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=7, minute=56, second=14), użytkownik: None, adres ip: 103.207.39.165
+Dec 10 07:56:14 LabSZ sshd[24334]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.207.39.165 
+
+
+TrueUsername: support, last Login: SimpleDate(month=11, day=10, hour=7, minute=56, second=15)
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=7, minute=56, second=15), użytkownik: None, adres ip: 103.207.39.165
+Dec 10 07:56:15 LabSZ sshd[24334]: Received disconnect from 103.207.39.165: 11: Closed due to user request. [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=8, minute=7, second=0), użytkownik: None, adres ip: 194.190.163.22
+Dec 10 08:07:00 LabSZ sshd[24336]: Connection closed by 194.190.163.22 [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=8, minute=8, second=41), użytkownik: inspur, adres ip: 175.102.13.6
+Dec 10 08:08:41 LabSZ sshd[24338]: Invalid user inspur from 175.102.13.6
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=8, minute=8, second=41), użytkownik: inspur, adres ip: None
+Dec 10 08:08:41 LabSZ sshd[24338]: input_userauth_request: invalid user inspur [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=8, minute=8, second=41), użytkownik: unknown, adres ip: None
+Dec 10 08:08:41 LabSZ sshd[24338]: pam_unix(sshd:auth): check pass; user unknown
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=8, minute=8, second=41), użytkownik: None, adres ip: 175.102.13.6
+Dec 10 08:08:41 LabSZ sshd[24338]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=175.102.13.6 
+
+
+TrueUsername: inspur, last Login: SimpleDate(month=11, day=10, hour=8, minute=8, second=43)
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=8, minute=8, second=43), użytkownik: None, adres ip: 175.102.13.6
+Dec 10 08:08:43 LabSZ sshd[24338]: Received disconnect from 175.102.13.6: 11: Bye Bye [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=8, minute=20, second=23), użytkownik: None, adres ip: 194.190.163.22
+Dec 10 08:20:23 LabSZ sshd[24358]: Connection closed by 194.190.163.22 [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=8, minute=24, second=32), użytkownik: 0101, adres ip: 5.188.10.180
+Dec 10 08:24:32 LabSZ sshd[24361]: Invalid user  0101 from 5.188.10.180
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=8, minute=24, second=32), użytkownik: 0101, adres ip: None
+Dec 10 08:24:32 LabSZ sshd[24361]: input_userauth_request: invalid user  0101 [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=8, minute=24, second=32), użytkownik: unknown, adres ip: None
+Dec 10 08:24:32 LabSZ sshd[24361]: pam_unix(sshd:auth): check pass; user unknown
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=8, minute=24, second=32), użytkownik: None, adres ip: 5.188.10.180
+Dec 10 08:24:32 LabSZ sshd[24361]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=5.188.10.180 
+
+
+FalseUsername: 0101, last Login: SimpleDate(month=11, day=10, hour=8, minute=24, second=35)
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=8, minute=24, second=36), użytkownik: None, adres ip: 5.188.10.180
+Dec 10 08:24:36 LabSZ sshd[24361]: Connection closed by 5.188.10.180 [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=8, minute=24, second=40), użytkownik: 0, adres ip: 5.188.10.180
+Dec 10 08:24:40 LabSZ sshd[24363]: Invalid user 0 from 5.188.10.180
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=8, minute=24, second=40), użytkownik: 0, adres ip: None
+Dec 10 08:24:40 LabSZ sshd[24363]: input_userauth_request: invalid user 0 [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=8, minute=24, second=40), użytkownik: 0, adres ip: 5.188.10.180
+Dec 10 08:24:40 LabSZ sshd[24363]: Failed none for invalid user 0 from 5.188.10.180 port 49811 ssh2
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=8, minute=24, second=43), użytkownik: unknown, adres ip: None
+Dec 10 08:24:43 LabSZ sshd[24363]: pam_unix(sshd:auth): check pass; user unknown
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=8, minute=24, second=43), użytkownik: None, adres ip: 5.188.10.180
+Dec 10 08:24:43 LabSZ sshd[24363]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=5.188.10.180 
+
+
+FalseUsername: 0, last Login: SimpleDate(month=11, day=10, hour=8, minute=24, second=45)
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=8, minute=24, second=46), użytkownik: None, adres ip: 5.188.10.180
+Dec 10 08:24:46 LabSZ sshd[24363]: Connection closed by 5.188.10.180 [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=8, minute=24, second=50), użytkownik: 1234, adres ip: 5.188.10.180
+Dec 10 08:24:50 LabSZ sshd[24365]: Invalid user 1234 from 5.188.10.180
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=8, minute=24, second=50), użytkownik: 1234, adres ip: None
+Dec 10 08:24:50 LabSZ sshd[24365]: input_userauth_request: invalid user 1234 [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=8, minute=24, second=50), użytkownik: unknown, adres ip: None
+Dec 10 08:24:50 LabSZ sshd[24365]: pam_unix(sshd:auth): check pass; user unknown
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=8, minute=24, second=50), użytkownik: None, adres ip: 5.188.10.180
+Dec 10 08:24:50 LabSZ sshd[24365]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=5.188.10.180 
+
+
+FalseUsername: 1234, last Login: SimpleDate(month=11, day=10, hour=8, minute=24, second=52)
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=8, minute=24, second=54), użytkownik: None, adres ip: 5.188.10.180
+Dec 10 08:24:54 LabSZ sshd[24365]: Connection closed by 5.188.10.180 [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=8, minute=24, second=58), użytkownik: admin, adres ip: 5.188.10.180
+Dec 10 08:24:58 LabSZ sshd[24367]: Invalid user admin from 5.188.10.180
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=8, minute=24, second=58), użytkownik: admin, adres ip: None
+Dec 10 08:24:58 LabSZ sshd[24367]: input_userauth_request: invalid user admin [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=8, minute=24, second=58), użytkownik: admin, adres ip: 5.188.10.180
+Dec 10 08:24:58 LabSZ sshd[24367]: Failed none for invalid user admin from 5.188.10.180 port 52631 ssh2
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=8, minute=24, second=59), użytkownik: None, adres ip: 5.188.10.180
+Dec 10 08:24:59 LabSZ sshd[24367]: Connection closed by 5.188.10.180 [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=8, minute=25, second=6), użytkownik: admin, adres ip: 5.188.10.180
+Dec 10 08:25:06 LabSZ sshd[24369]: Invalid user admin from 5.188.10.180
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=8, minute=25, second=6), użytkownik: admin, adres ip: None
+Dec 10 08:25:06 LabSZ sshd[24369]: input_userauth_request: invalid user admin [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=8, minute=25, second=6), użytkownik: unknown, adres ip: None
+Dec 10 08:25:06 LabSZ sshd[24369]: pam_unix(sshd:auth): check pass; user unknown
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=8, minute=25, second=6), użytkownik: None, adres ip: 5.188.10.180
+Dec 10 08:25:06 LabSZ sshd[24369]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=5.188.10.180 
+
+
+TrueUsername: admin, last Login: SimpleDate(month=11, day=10, hour=8, minute=25, second=8)
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=8, minute=25, second=10), użytkownik: unknown, adres ip: None
+Dec 10 08:25:10 LabSZ sshd[24369]: pam_unix(sshd:auth): check pass; user unknown
+
+
+TrueUsername: admin, last Login: SimpleDate(month=11, day=10, hour=8, minute=25, second=11)
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=8, minute=25, second=13), użytkownik: unknown, adres ip: None
+Dec 10 08:25:13 LabSZ sshd[24369]: pam_unix(sshd:auth): check pass; user unknown
+
+
+TrueUsername: admin, last Login: SimpleDate(month=11, day=10, hour=8, minute=25, second=15)
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=8, minute=25, second=16), użytkownik: unknown, adres ip: None
+Dec 10 08:25:16 LabSZ sshd[24369]: pam_unix(sshd:auth): check pass; user unknown
+
+
+TrueUsername: admin, last Login: SimpleDate(month=11, day=10, hour=8, minute=25, second=18)
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=8, minute=25, second=19), użytkownik: unknown, adres ip: None
+Dec 10 08:25:19 LabSZ sshd[24369]: pam_unix(sshd:auth): check pass; user unknown
+
+
+TrueUsername: admin, last Login: SimpleDate(month=11, day=10, hour=8, minute=25, second=21)
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=8, minute=25, second=22), użytkownik: None, adres ip: 5.188.10.180
+Dec 10 08:25:22 LabSZ sshd[24369]: Connection closed by 5.188.10.180 [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=8, minute=25, second=22), użytkownik: None, adres ip: 5.188.10.180
+Dec 10 08:25:22 LabSZ sshd[24369]: PAM 4 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=5.188.10.180 
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=8, minute=25, second=22), użytkownik: None, adres ip: None
+Dec 10 08:25:22 LabSZ sshd[24369]: PAM service(sshd) ignoring max retries; 5 > 3
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=8, minute=25, second=27), użytkownik: admin, adres ip: 5.188.10.180
+Dec 10 08:25:27 LabSZ sshd[24371]: Invalid user admin from 5.188.10.180
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=8, minute=25, second=27), użytkownik: admin, adres ip: None
+Dec 10 08:25:27 LabSZ sshd[24371]: input_userauth_request: invalid user admin [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=8, minute=25, second=27), użytkownik: unknown, adres ip: None
+Dec 10 08:25:27 LabSZ sshd[24371]: pam_unix(sshd:auth): check pass; user unknown
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=8, minute=25, second=27), użytkownik: None, adres ip: 5.188.10.180
+Dec 10 08:25:27 LabSZ sshd[24371]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=5.188.10.180 
+
+
+TrueUsername: admin, last Login: SimpleDate(month=11, day=10, hour=8, minute=25, second=28)
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=8, minute=25, second=30), użytkownik: unknown, adres ip: None
+Dec 10 08:25:30 LabSZ sshd[24371]: pam_unix(sshd:auth): check pass; user unknown
+
+
+TrueUsername: admin, last Login: SimpleDate(month=11, day=10, hour=8, minute=25, second=32)
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=8, minute=25, second=33), użytkownik: unknown, adres ip: None
+Dec 10 08:25:33 LabSZ sshd[24371]: pam_unix(sshd:auth): check pass; user unknown
+
+
+TrueUsername: admin, last Login: SimpleDate(month=11, day=10, hour=8, minute=25, second=35)
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=8, minute=25, second=36), użytkownik: unknown, adres ip: None
+Dec 10 08:25:36 LabSZ sshd[24371]: pam_unix(sshd:auth): check pass; user unknown
+
+
+TrueUsername: admin, last Login: SimpleDate(month=11, day=10, hour=8, minute=25, second=38)
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=8, minute=25, second=39), użytkownik: unknown, adres ip: None
+Dec 10 08:25:39 LabSZ sshd[24371]: pam_unix(sshd:auth): check pass; user unknown
+
+
+TrueUsername: admin, last Login: SimpleDate(month=11, day=10, hour=8, minute=25, second=41)
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=8, minute=25, second=41), użytkownik: None, adres ip: 5.188.10.180
+Dec 10 08:25:41 LabSZ sshd[24371]: Connection closed by 5.188.10.180 [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=8, minute=25, second=41), użytkownik: None, adres ip: 5.188.10.180
+Dec 10 08:25:41 LabSZ sshd[24371]: PAM 4 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=5.188.10.180 
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=8, minute=25, second=41), użytkownik: None, adres ip: None
+Dec 10 08:25:41 LabSZ sshd[24371]: PAM service(sshd) ignoring max retries; 5 > 3
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=8, minute=25, second=48), użytkownik: admin, adres ip: 5.188.10.180
+Dec 10 08:25:48 LabSZ sshd[24373]: Invalid user admin from 5.188.10.180
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=8, minute=25, second=48), użytkownik: admin, adres ip: None
+Dec 10 08:25:48 LabSZ sshd[24373]: input_userauth_request: invalid user admin [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=8, minute=25, second=48), użytkownik: unknown, adres ip: None
+Dec 10 08:25:48 LabSZ sshd[24373]: pam_unix(sshd:auth): check pass; user unknown
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=8, minute=25, second=48), użytkownik: None, adres ip: 5.188.10.180
+Dec 10 08:25:48 LabSZ sshd[24373]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=5.188.10.180 
+
+
+TrueUsername: admin, last Login: SimpleDate(month=11, day=10, hour=8, minute=25, second=50)
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=8, minute=25, second=51), użytkownik: None, adres ip: 5.188.10.180
+Dec 10 08:25:51 LabSZ sshd[24373]: Connection closed by 5.188.10.180 [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=8, minute=25, second=58), użytkownik: default, adres ip: 5.188.10.180
+Dec 10 08:25:58 LabSZ sshd[24375]: Invalid user default from 5.188.10.180
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=8, minute=25, second=58), użytkownik: default, adres ip: None
+Dec 10 08:25:58 LabSZ sshd[24375]: input_userauth_request: invalid user default [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=8, minute=25, second=58), użytkownik: unknown, adres ip: None
+Dec 10 08:25:58 LabSZ sshd[24375]: pam_unix(sshd:auth): check pass; user unknown
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=8, minute=25, second=58), użytkownik: None, adres ip: 5.188.10.180
+Dec 10 08:25:58 LabSZ sshd[24375]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=5.188.10.180 
+
+
+TrueUsername: default, last Login: SimpleDate(month=11, day=10, hour=8, minute=26, second=0)
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=8, minute=26, second=1), użytkownik: unknown, adres ip: None
+Dec 10 08:26:01 LabSZ sshd[24375]: pam_unix(sshd:auth): check pass; user unknown
+
+
+TrueUsername: default, last Login: SimpleDate(month=11, day=10, hour=8, minute=26, second=3)
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=8, minute=26, second=4), użytkownik: None, adres ip: 5.188.10.180
+Dec 10 08:26:04 LabSZ sshd[24375]: Connection closed by 5.188.10.180 [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=8, minute=26, second=4), użytkownik: None, adres ip: 5.188.10.180
+Dec 10 08:26:04 LabSZ sshd[24375]: PAM 1 more authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=5.188.10.180 
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=8, minute=26, second=9), użytkownik: ftp, adres ip: 5.188.10.180
+Dec 10 08:26:09 LabSZ sshd[24377]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=5.188.10.180  user=ftp
+
+
+FalseUsername: None, last Login: SimpleDate(month=11, day=10, hour=8, minute=26, second=12)
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=8, minute=26, second=14), użytkownik: None, adres ip: 5.188.10.180
+Dec 10 08:26:14 LabSZ sshd[24377]: Connection closed by 5.188.10.180 [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=8, minute=26, second=22), użytkownik: guest, adres ip: 5.188.10.180
+Dec 10 08:26:22 LabSZ sshd[24379]: Invalid user guest from 5.188.10.180
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=8, minute=26, second=22), użytkownik: guest, adres ip: None
+Dec 10 08:26:22 LabSZ sshd[24379]: input_userauth_request: invalid user guest [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=8, minute=26, second=22), użytkownik: unknown, adres ip: None
+Dec 10 08:26:22 LabSZ sshd[24379]: pam_unix(sshd:auth): check pass; user unknown
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=8, minute=26, second=22), użytkownik: None, adres ip: 5.188.10.180
+Dec 10 08:26:22 LabSZ sshd[24379]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=5.188.10.180 
+
+
+TrueUsername: guest, last Login: SimpleDate(month=11, day=10, hour=8, minute=26, second=24)
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=8, minute=26, second=25), użytkownik: None, adres ip: 5.188.10.180
+Dec 10 08:26:25 LabSZ sshd[24379]: Connection closed by 5.188.10.180 [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=8, minute=26, second=32), użytkownik: None, adres ip: 5.188.10.180
+Dec 10 08:26:32 LabSZ sshd[24381]: Connection closed by 5.188.10.180 [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=8, minute=26, second=40), użytkownik: None, adres ip: 5.188.10.180
+Dec 10 08:26:40 LabSZ sshd[24383]: Did not receive identification string from 5.188.10.180
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=8, minute=33, second=23), użytkownik: None, adres ip: 103.207.39.212
+Dec 10 08:33:23 LabSZ sshd[24384]: Did not receive identification string from 103.207.39.212
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=8, minute=33, second=24), użytkownik: support, adres ip: 103.207.39.212
+Dec 10 08:33:24 LabSZ sshd[24385]: Invalid user support from 103.207.39.212
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=8, minute=33, second=24), użytkownik: support, adres ip: None
+Dec 10 08:33:24 LabSZ sshd[24385]: input_userauth_request: invalid user support [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=8, minute=33, second=24), użytkownik: unknown, adres ip: None
+Dec 10 08:33:24 LabSZ sshd[24385]: pam_unix(sshd:auth): check pass; user unknown
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=8, minute=33, second=24), użytkownik: None, adres ip: 103.207.39.212
+Dec 10 08:33:24 LabSZ sshd[24385]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.207.39.212 
+
+
+TrueUsername: support, last Login: SimpleDate(month=11, day=10, hour=8, minute=33, second=26)
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=8, minute=33, second=26), użytkownik: None, adres ip: 103.207.39.212
+Dec 10 08:33:26 LabSZ sshd[24385]: Received disconnect from 103.207.39.212: 11: Closed due to user request. [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=8, minute=33, second=27), użytkownik: uucp, adres ip: 103.207.39.212
+Dec 10 08:33:27 LabSZ sshd[24387]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.207.39.212  user=uucp
+
+
+FalseUsername: None, last Login: SimpleDate(month=11, day=10, hour=8, minute=33, second=29)
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=8, minute=33, second=29), użytkownik: None, adres ip: 103.207.39.212
+Dec 10 08:33:29 LabSZ sshd[24387]: Received disconnect from 103.207.39.212: 11: Closed due to user request. [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=8, minute=33, second=29), użytkownik: admin, adres ip: 103.207.39.212
+Dec 10 08:33:29 LabSZ sshd[24389]: Invalid user admin from 103.207.39.212
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=8, minute=33, second=29), użytkownik: admin, adres ip: None
+Dec 10 08:33:29 LabSZ sshd[24389]: input_userauth_request: invalid user admin [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=8, minute=33, second=29), użytkownik: unknown, adres ip: None
+Dec 10 08:33:29 LabSZ sshd[24389]: pam_unix(sshd:auth): check pass; user unknown
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=8, minute=33, second=29), użytkownik: None, adres ip: 103.207.39.212
+Dec 10 08:33:29 LabSZ sshd[24389]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.207.39.212 
+
+
+TrueUsername: admin, last Login: SimpleDate(month=11, day=10, hour=8, minute=33, second=31)
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=8, minute=33, second=31), użytkownik: None, adres ip: 103.207.39.212
+Dec 10 08:33:31 LabSZ sshd[24389]: Received disconnect from 103.207.39.212: 11: Closed due to user request. [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=8, minute=33, second=40), użytkownik: None, adres ip: 194.190.163.22
+Dec 10 08:33:40 LabSZ sshd[24391]: Connection closed by 194.190.163.22 [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=8, minute=39, second=47), użytkownik: root, adres ip: 106.5.5.195
+Dec 10 08:39:47 LabSZ sshd[24408]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=106.5.5.195  user=root
+
+
+FalseUsername: None, last Login: SimpleDate(month=11, day=10, hour=8, minute=39, second=49)
+FalseUsername: None, last Login: SimpleDate(month=11, day=10, hour=8, minute=39, second=59)
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=8, minute=39, second=59), użytkownik: None, adres ip: None
+Dec 10 08:39:59 LabSZ sshd[24408]: Disconnecting: Too many authentication failures for root [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=8, minute=39, second=59), użytkownik: root, adres ip: 106.5.5.195
+Dec 10 08:39:59 LabSZ sshd[24408]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=106.5.5.195  user=root
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=8, minute=39, second=59), użytkownik: None, adres ip: None
+Dec 10 08:39:59 LabSZ sshd[24408]: PAM service(sshd) ignoring max retries; 6 > 3
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=8, minute=44, second=20), użytkownik: matlab, adres ip: 52.80.34.196
+Dec 10 08:44:20 LabSZ sshd[24410]: Invalid user matlab from 52.80.34.196
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=8, minute=44, second=20), użytkownik: matlab, adres ip: None
+Dec 10 08:44:20 LabSZ sshd[24410]: input_userauth_request: invalid user matlab [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=8, minute=44, second=20), użytkownik: unknown, adres ip: None
+Dec 10 08:44:20 LabSZ sshd[24410]: pam_unix(sshd:auth): check pass; user unknown
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=8, minute=44, second=20), użytkownik: None, adres ip: None
+Dec 10 08:44:20 LabSZ sshd[24410]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=ec2-52-80-34-196.cn-north-1.compute.amazonaws.com.cn 
+
+
+TrueUsername: matlab, last Login: SimpleDate(month=11, day=10, hour=8, minute=44, second=27)
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=8, minute=44, second=27), użytkownik: None, adres ip: 52.80.34.196
+Dec 10 08:44:27 LabSZ sshd[24410]: Received disconnect from 52.80.34.196: 11: Bye Bye [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=4, second=46), użytkownik: None, adres ip: 188.132.244.89
+Dec 10 09:04:46 LabSZ sshd[24414]: Did not receive identification string from 188.132.244.89
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=7, second=23), użytkownik: 0, adres ip: 185.190.58.151
+Dec 10 09:07:23 LabSZ sshd[24415]: Invalid user 0 from 185.190.58.151
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=7, second=23), użytkownik: 0, adres ip: None
+Dec 10 09:07:23 LabSZ sshd[24415]: input_userauth_request: invalid user 0 [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=7, second=23), użytkownik: 0, adres ip: 185.190.58.151
+Dec 10 09:07:23 LabSZ sshd[24415]: Failed none for invalid user 0 from 185.190.58.151 port 55495 ssh2
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=7, second=24), użytkownik: None, adres ip: 185.190.58.151
+Dec 10 09:07:24 LabSZ sshd[24415]: Connection closed by 185.190.58.151 [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=7, second=56), użytkownik: 123, adres ip: 185.190.58.151
+Dec 10 09:07:56 LabSZ sshd[24417]: Invalid user 123 from 185.190.58.151
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=7, second=56), użytkownik: 123, adres ip: None
+Dec 10 09:07:56 LabSZ sshd[24417]: input_userauth_request: invalid user 123 [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=7, second=56), użytkownik: unknown, adres ip: None
+Dec 10 09:07:56 LabSZ sshd[24417]: pam_unix(sshd:auth): check pass; user unknown
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=7, second=56), użytkownik: None, adres ip: 185.190.58.151
+Dec 10 09:07:56 LabSZ sshd[24417]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=185.190.58.151 
+
+
+FalseUsername: 123, last Login: SimpleDate(month=11, day=10, hour=9, minute=7, second=58)
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=8, second=3), użytkownik: None, adres ip: 185.190.58.151
+Dec 10 09:08:03 LabSZ sshd[24417]: Connection closed by 185.190.58.151 [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=8, second=38), użytkownik: admin, adres ip: 185.190.58.151
+Dec 10 09:08:38 LabSZ sshd[24419]: Invalid user admin from 185.190.58.151
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=8, second=38), użytkownik: admin, adres ip: None
+Dec 10 09:08:38 LabSZ sshd[24419]: input_userauth_request: invalid user admin [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=8, second=38), użytkownik: unknown, adres ip: None
+Dec 10 09:08:38 LabSZ sshd[24419]: pam_unix(sshd:auth): check pass; user unknown
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=8, second=38), użytkownik: None, adres ip: 185.190.58.151
+Dec 10 09:08:38 LabSZ sshd[24419]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=185.190.58.151 
+
+
+TrueUsername: admin, last Login: SimpleDate(month=11, day=10, hour=9, minute=8, second=40)
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=8, second=44), użytkownik: unknown, adres ip: None
+Dec 10 09:08:44 LabSZ sshd[24419]: pam_unix(sshd:auth): check pass; user unknown
+
+
+TrueUsername: admin, last Login: SimpleDate(month=11, day=10, hour=9, minute=8, second=47)
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=8, second=52), użytkownik: unknown, adres ip: None
+Dec 10 09:08:52 LabSZ sshd[24419]: pam_unix(sshd:auth): check pass; user unknown
+
+
+TrueUsername: admin, last Login: SimpleDate(month=11, day=10, hour=9, minute=8, second=54)
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=8, second=59), użytkownik: None, adres ip: 185.190.58.151
+Dec 10 09:08:59 LabSZ sshd[24419]: Connection closed by 185.190.58.151 [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=8, second=59), użytkownik: None, adres ip: 185.190.58.151
+Dec 10 09:08:59 LabSZ sshd[24419]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=185.190.58.151 
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=9, second=39), użytkownik: admin, adres ip: 185.190.58.151
+Dec 10 09:09:39 LabSZ sshd[24421]: Invalid user admin from 185.190.58.151
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=9, second=39), użytkownik: admin, adres ip: None
+Dec 10 09:09:39 LabSZ sshd[24421]: input_userauth_request: invalid user admin [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=9, second=39), użytkownik: unknown, adres ip: None
+Dec 10 09:09:39 LabSZ sshd[24421]: pam_unix(sshd:auth): check pass; user unknown
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=9, second=39), użytkownik: None, adres ip: 185.190.58.151
+Dec 10 09:09:39 LabSZ sshd[24421]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=185.190.58.151 
+
+
+TrueUsername: admin, last Login: SimpleDate(month=11, day=10, hour=9, minute=9, second=42)
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=9, second=54), użytkownik: unknown, adres ip: None
+Dec 10 09:09:54 LabSZ sshd[24421]: pam_unix(sshd:auth): check pass; user unknown
+
+
+TrueUsername: admin, last Login: SimpleDate(month=11, day=10, hour=9, minute=9, second=56)
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=10, second=3), użytkownik: unknown, adres ip: None
+Dec 10 09:10:03 LabSZ sshd[24421]: pam_unix(sshd:auth): check pass; user unknown
+
+
+TrueUsername: admin, last Login: SimpleDate(month=11, day=10, hour=9, minute=10, second=6)
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=10, second=9), użytkownik: unknown, adres ip: None
+Dec 10 09:10:09 LabSZ sshd[24421]: pam_unix(sshd:auth): check pass; user unknown
+
+
+TrueUsername: admin, last Login: SimpleDate(month=11, day=10, hour=9, minute=10, second=11)
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=10, second=17), użytkownik: unknown, adres ip: None
+Dec 10 09:10:17 LabSZ sshd[24421]: pam_unix(sshd:auth): check pass; user unknown
+
+
+TrueUsername: admin, last Login: SimpleDate(month=11, day=10, hour=9, minute=10, second=19)
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=10, second=32), użytkownik: None, adres ip: 185.190.58.151
+Dec 10 09:10:32 LabSZ sshd[24421]: Connection closed by 185.190.58.151 [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=10, second=32), użytkownik: None, adres ip: 185.190.58.151
+Dec 10 09:10:32 LabSZ sshd[24421]: PAM 4 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=185.190.58.151 
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=10, second=32), użytkownik: None, adres ip: None
+Dec 10 09:10:32 LabSZ sshd[24421]: PAM service(sshd) ignoring max retries; 5 > 3
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=11, second=0), użytkownik: admin, adres ip: 185.190.58.151
+Dec 10 09:11:00 LabSZ sshd[24437]: Invalid user admin from 185.190.58.151
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=11, second=0), użytkownik: admin, adres ip: None
+Dec 10 09:11:00 LabSZ sshd[24437]: input_userauth_request: invalid user admin [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=11, second=0), użytkownik: unknown, adres ip: None
+Dec 10 09:11:00 LabSZ sshd[24437]: pam_unix(sshd:auth): check pass; user unknown
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=11, second=0), użytkownik: None, adres ip: 185.190.58.151
+Dec 10 09:11:00 LabSZ sshd[24437]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=185.190.58.151 
+
+
+TrueUsername: admin, last Login: SimpleDate(month=11, day=10, hour=9, minute=11, second=3)
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=11, second=9), użytkownik: unknown, adres ip: None
+Dec 10 09:11:09 LabSZ sshd[24437]: pam_unix(sshd:auth): check pass; user unknown
+
+
+TrueUsername: admin, last Login: SimpleDate(month=11, day=10, hour=9, minute=11, second=11)
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=11, second=16), użytkownik: unknown, adres ip: None
+Dec 10 09:11:16 LabSZ sshd[24437]: pam_unix(sshd:auth): check pass; user unknown
+
+
+TrueUsername: admin, last Login: SimpleDate(month=11, day=10, hour=9, minute=11, second=18)
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=11, second=20), użytkownik: admin, adres ip: 103.99.0.122
+Dec 10 09:11:20 LabSZ sshd[24439]: Invalid user admin from 103.99.0.122
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=11, second=20), użytkownik: admin, adres ip: None
+Dec 10 09:11:20 LabSZ sshd[24439]: input_userauth_request: invalid user admin [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=11, second=20), użytkownik: unknown, adres ip: None
+Dec 10 09:11:20 LabSZ sshd[24439]: pam_unix(sshd:auth): check pass; user unknown
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=11, second=20), użytkownik: None, adres ip: 103.99.0.122
+Dec 10 09:11:20 LabSZ sshd[24439]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.99.0.122 
+
+
+TrueUsername: admin, last Login: SimpleDate(month=11, day=10, hour=9, minute=11, second=21)
+TrueType: ERRORData rządania: SimpleDate(month=11, day=10, hour=9, minute=11, second=22), użytkownik: None, adres ip: 103.99.0.122
+Dec 10 09:11:22 LabSZ sshd[24439]: error: Received disconnect from 103.99.0.122: 14: No more user authentication methods available. [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=11, second=23), użytkownik: support, adres ip: 103.99.0.122
+Dec 10 09:11:23 LabSZ sshd[24441]: Invalid user support from 103.99.0.122
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=11, second=23), użytkownik: support, adres ip: None
+Dec 10 09:11:23 LabSZ sshd[24441]: input_userauth_request: invalid user support [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=11, second=23), użytkownik: unknown, adres ip: None
+Dec 10 09:11:23 LabSZ sshd[24441]: pam_unix(sshd:auth): check pass; user unknown
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=11, second=23), użytkownik: None, adres ip: 103.99.0.122
+Dec 10 09:11:23 LabSZ sshd[24441]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.99.0.122 
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=11, second=24), użytkownik: unknown, adres ip: None
+Dec 10 09:11:24 LabSZ sshd[24437]: pam_unix(sshd:auth): check pass; user unknown
+
+
+TrueUsername: support, last Login: SimpleDate(month=11, day=10, hour=9, minute=11, second=25)
+TrueType: ERRORData rządania: SimpleDate(month=11, day=10, hour=9, minute=11, second=26), użytkownik: None, adres ip: 103.99.0.122
+Dec 10 09:11:26 LabSZ sshd[24441]: error: Received disconnect from 103.99.0.122: 14: No more user authentication methods available. [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=11, second=26), użytkownik: user, adres ip: 103.99.0.122
+Dec 10 09:11:26 LabSZ sshd[24443]: Invalid user user from 103.99.0.122
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=11, second=26), użytkownik: user, adres ip: None
+Dec 10 09:11:26 LabSZ sshd[24443]: input_userauth_request: invalid user user [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=11, second=26), użytkownik: unknown, adres ip: None
+Dec 10 09:11:26 LabSZ sshd[24443]: pam_unix(sshd:auth): check pass; user unknown
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=11, second=26), użytkownik: None, adres ip: 103.99.0.122
+Dec 10 09:11:26 LabSZ sshd[24443]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.99.0.122 
+
+
+TrueUsername: admin, last Login: SimpleDate(month=11, day=10, hour=9, minute=11, second=26)
+TrueUsername: user, last Login: SimpleDate(month=11, day=10, hour=9, minute=11, second=28)
+TrueType: ERRORData rządania: SimpleDate(month=11, day=10, hour=9, minute=11, second=28), użytkownik: None, adres ip: 103.99.0.122
+Dec 10 09:11:28 LabSZ sshd[24443]: error: Received disconnect from 103.99.0.122: 14: No more user authentication methods available. [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=11, second=29), użytkownik: root, adres ip: 103.99.0.122
+Dec 10 09:11:29 LabSZ sshd[24445]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.99.0.122  user=root
+
+
+FalseUsername: None, last Login: SimpleDate(month=11, day=10, hour=9, minute=11, second=31)
+TrueType: ERRORData rządania: SimpleDate(month=11, day=10, hour=9, minute=11, second=31), użytkownik: None, adres ip: 103.99.0.122
+Dec 10 09:11:31 LabSZ sshd[24445]: error: Received disconnect from 103.99.0.122: 14: No more user authentication methods available. [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=11, second=32), użytkownik: 1234, adres ip: 103.99.0.122
+Dec 10 09:11:32 LabSZ sshd[24447]: Invalid user 1234 from 103.99.0.122
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=11, second=32), użytkownik: 1234, adres ip: None
+Dec 10 09:11:32 LabSZ sshd[24447]: input_userauth_request: invalid user 1234 [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=11, second=32), użytkownik: unknown, adres ip: None
+Dec 10 09:11:32 LabSZ sshd[24447]: pam_unix(sshd:auth): check pass; user unknown
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=11, second=32), użytkownik: None, adres ip: 103.99.0.122
+Dec 10 09:11:32 LabSZ sshd[24447]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.99.0.122 
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=11, second=33), użytkownik: unknown, adres ip: None
+Dec 10 09:11:33 LabSZ sshd[24437]: pam_unix(sshd:auth): check pass; user unknown
+
+
+FalseUsername: 1234, last Login: SimpleDate(month=11, day=10, hour=9, minute=11, second=34)
+TrueType: ERRORData rządania: SimpleDate(month=11, day=10, hour=9, minute=11, second=34), użytkownik: None, adres ip: 103.99.0.122
+Dec 10 09:11:34 LabSZ sshd[24447]: error: Received disconnect from 103.99.0.122: 14: No more user authentication methods available. [preauth]
+
+
+TrueUsername: admin, last Login: SimpleDate(month=11, day=10, hour=9, minute=11, second=34)
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=11, second=35), użytkownik: root, adres ip: 103.99.0.122
+Dec 10 09:11:35 LabSZ sshd[24449]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.99.0.122  user=root
+
+
+FalseUsername: None, last Login: SimpleDate(month=11, day=10, hour=9, minute=11, second=37)
+TrueType: ERRORData rządania: SimpleDate(month=11, day=10, hour=9, minute=11, second=38), użytkownik: None, adres ip: 103.99.0.122
+Dec 10 09:11:38 LabSZ sshd[24449]: error: Received disconnect from 103.99.0.122: 14: No more user authentication methods available. [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=11, second=39), użytkownik: anonymous, adres ip: 103.99.0.122
+Dec 10 09:11:39 LabSZ sshd[24451]: Invalid user anonymous from 103.99.0.122
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=11, second=39), użytkownik: anonymous, adres ip: None
+Dec 10 09:11:39 LabSZ sshd[24451]: input_userauth_request: invalid user anonymous [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=11, second=39), użytkownik: unknown, adres ip: None
+Dec 10 09:11:39 LabSZ sshd[24451]: pam_unix(sshd:auth): check pass; user unknown
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=11, second=39), użytkownik: None, adres ip: 103.99.0.122
+Dec 10 09:11:39 LabSZ sshd[24451]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.99.0.122 
+
+
+TrueUsername: anonymous, last Login: SimpleDate(month=11, day=10, hour=9, minute=11, second=40)
+TrueType: ERRORData rządania: SimpleDate(month=11, day=10, hour=9, minute=11, second=41), użytkownik: None, adres ip: 103.99.0.122
+Dec 10 09:11:41 LabSZ sshd[24451]: error: Received disconnect from 103.99.0.122: 14: No more user authentication methods available. [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=11, second=41), użytkownik: admin, adres ip: 103.99.0.122
+Dec 10 09:11:41 LabSZ sshd[24453]: Invalid user admin from 103.99.0.122
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=11, second=41), użytkownik: admin, adres ip: None
+Dec 10 09:11:41 LabSZ sshd[24453]: input_userauth_request: invalid user admin [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=11, second=41), użytkownik: unknown, adres ip: None
+Dec 10 09:11:41 LabSZ sshd[24453]: pam_unix(sshd:auth): check pass; user unknown
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=11, second=41), użytkownik: None, adres ip: 103.99.0.122
+Dec 10 09:11:41 LabSZ sshd[24453]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.99.0.122 
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=11, second=41), użytkownik: None, adres ip: 185.190.58.151
+Dec 10 09:11:41 LabSZ sshd[24437]: Connection closed by 185.190.58.151 [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=11, second=41), użytkownik: None, adres ip: 185.190.58.151
+Dec 10 09:11:41 LabSZ sshd[24437]: PAM 4 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=185.190.58.151 
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=11, second=41), użytkownik: None, adres ip: None
+Dec 10 09:11:41 LabSZ sshd[24437]: PAM service(sshd) ignoring max retries; 5 > 3
+
+
+TrueUsername: admin, last Login: SimpleDate(month=11, day=10, hour=9, minute=11, second=44)
+TrueType: ERRORData rządania: SimpleDate(month=11, day=10, hour=9, minute=11, second=44), użytkownik: None, adres ip: 103.99.0.122
+Dec 10 09:11:44 LabSZ sshd[24453]: error: Received disconnect from 103.99.0.122: 14: No more user authentication methods available. [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=11, second=45), użytkownik: ubnt, adres ip: 103.99.0.122
+Dec 10 09:11:45 LabSZ sshd[24456]: Invalid user ubnt from 103.99.0.122
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=11, second=45), użytkownik: ubnt, adres ip: None
+Dec 10 09:11:45 LabSZ sshd[24456]: input_userauth_request: invalid user ubnt [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=11, second=45), użytkownik: unknown, adres ip: None
+Dec 10 09:11:45 LabSZ sshd[24456]: pam_unix(sshd:auth): check pass; user unknown
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=11, second=45), użytkownik: None, adres ip: 103.99.0.122
+Dec 10 09:11:45 LabSZ sshd[24456]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.99.0.122 
+
+
+TrueUsername: ubnt, last Login: SimpleDate(month=11, day=10, hour=9, minute=11, second=47)
+TrueType: ERRORData rządania: SimpleDate(month=11, day=10, hour=9, minute=11, second=47), użytkownik: None, adres ip: 103.99.0.122
+Dec 10 09:11:47 LabSZ sshd[24456]: error: Received disconnect from 103.99.0.122: 14: No more user authentication methods available. [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=11, second=48), użytkownik: uucp, adres ip: 103.99.0.122
+Dec 10 09:11:48 LabSZ sshd[24458]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.99.0.122  user=uucp
+
+
+FalseUsername: None, last Login: SimpleDate(month=11, day=10, hour=9, minute=11, second=50)
+TrueType: ERRORData rządania: SimpleDate(month=11, day=10, hour=9, minute=11, second=50), użytkownik: None, adres ip: 103.99.0.122
+Dec 10 09:11:50 LabSZ sshd[24458]: error: Received disconnect from 103.99.0.122: 14: No more user authentication methods available. [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=11, second=51), użytkownik: sshd, adres ip: 103.99.0.122
+Dec 10 09:11:51 LabSZ sshd[24460]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.99.0.122  user=sshd
+
+
+FalseUsername: None, last Login: SimpleDate(month=11, day=10, hour=9, minute=11, second=52)
+TrueType: ERRORData rządania: SimpleDate(month=11, day=10, hour=9, minute=11, second=52), użytkownik: None, adres ip: 103.99.0.122
+Dec 10 09:11:52 LabSZ sshd[24460]: error: Received disconnect from 103.99.0.122: 14: No more user authentication methods available. [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=11, second=53), użytkownik: admin, adres ip: 103.99.0.122
+Dec 10 09:11:53 LabSZ sshd[24462]: Invalid user admin from 103.99.0.122
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=11, second=53), użytkownik: admin, adres ip: None
+Dec 10 09:11:53 LabSZ sshd[24462]: input_userauth_request: invalid user admin [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=11, second=53), użytkownik: unknown, adres ip: None
+Dec 10 09:11:53 LabSZ sshd[24462]: pam_unix(sshd:auth): check pass; user unknown
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=11, second=53), użytkownik: None, adres ip: 103.99.0.122
+Dec 10 09:11:53 LabSZ sshd[24462]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.99.0.122 
+
+
+TrueUsername: admin, last Login: SimpleDate(month=11, day=10, hour=9, minute=11, second=55)
+TrueType: ERRORData rządania: SimpleDate(month=11, day=10, hour=9, minute=11, second=56), użytkownik: None, adres ip: 103.99.0.122
+Dec 10 09:11:56 LabSZ sshd[24462]: error: Received disconnect from 103.99.0.122: 14: No more user authentication methods available. [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=11, second=56), użytkownik: cisco, adres ip: 103.99.0.122
+Dec 10 09:11:56 LabSZ sshd[24464]: Invalid user cisco from 103.99.0.122
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=11, second=56), użytkownik: cisco, adres ip: None
+Dec 10 09:11:56 LabSZ sshd[24464]: input_userauth_request: invalid user cisco [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=11, second=56), użytkownik: unknown, adres ip: None
+Dec 10 09:11:56 LabSZ sshd[24464]: pam_unix(sshd:auth): check pass; user unknown
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=11, second=56), użytkownik: None, adres ip: 103.99.0.122
+Dec 10 09:11:56 LabSZ sshd[24464]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.99.0.122 
+
+
+TrueUsername: cisco, last Login: SimpleDate(month=11, day=10, hour=9, minute=11, second=57)
+TrueType: ERRORData rządania: SimpleDate(month=11, day=10, hour=9, minute=11, second=58), użytkownik: None, adres ip: 103.99.0.122
+Dec 10 09:11:58 LabSZ sshd[24464]: error: Received disconnect from 103.99.0.122: 14: No more user authentication methods available. [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=11, second=58), użytkownik: test, adres ip: 103.99.0.122
+Dec 10 09:11:58 LabSZ sshd[24467]: Invalid user test from 103.99.0.122
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=11, second=58), użytkownik: test, adres ip: None
+Dec 10 09:11:58 LabSZ sshd[24467]: input_userauth_request: invalid user test [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=11, second=58), użytkownik: unknown, adres ip: None
+Dec 10 09:11:58 LabSZ sshd[24467]: pam_unix(sshd:auth): check pass; user unknown
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=11, second=58), użytkownik: None, adres ip: 103.99.0.122
+Dec 10 09:11:58 LabSZ sshd[24467]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.99.0.122 
+
+
+TrueUsername: test, last Login: SimpleDate(month=11, day=10, hour=9, minute=12, second=0)
+TrueType: ERRORData rządania: SimpleDate(month=11, day=10, hour=9, minute=12, second=0), użytkownik: None, adres ip: 103.99.0.122
+Dec 10 09:12:00 LabSZ sshd[24467]: error: Received disconnect from 103.99.0.122: 14: No more user authentication methods available. [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=12, second=1), użytkownik: guest, adres ip: 103.99.0.122
+Dec 10 09:12:01 LabSZ sshd[24469]: Invalid user guest from 103.99.0.122
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=12, second=1), użytkownik: guest, adres ip: None
+Dec 10 09:12:01 LabSZ sshd[24469]: input_userauth_request: invalid user guest [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=12, second=1), użytkownik: unknown, adres ip: None
+Dec 10 09:12:01 LabSZ sshd[24469]: pam_unix(sshd:auth): check pass; user unknown
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=12, second=1), użytkownik: None, adres ip: 103.99.0.122
+Dec 10 09:12:01 LabSZ sshd[24469]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.99.0.122 
+
+
+TrueUsername: guest, last Login: SimpleDate(month=11, day=10, hour=9, minute=12, second=3)
+TrueType: ERRORData rządania: SimpleDate(month=11, day=10, hour=9, minute=12, second=3), użytkownik: None, adres ip: 103.99.0.122
+Dec 10 09:12:03 LabSZ sshd[24469]: error: Received disconnect from 103.99.0.122: 14: No more user authentication methods available. [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=12, second=4), użytkownik: user, adres ip: 103.99.0.122
+Dec 10 09:12:04 LabSZ sshd[24471]: Invalid user user from 103.99.0.122
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=12, second=4), użytkownik: user, adres ip: None
+Dec 10 09:12:04 LabSZ sshd[24471]: input_userauth_request: invalid user user [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=12, second=4), użytkownik: unknown, adres ip: None
+Dec 10 09:12:04 LabSZ sshd[24471]: pam_unix(sshd:auth): check pass; user unknown
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=12, second=4), użytkownik: None, adres ip: 103.99.0.122
+Dec 10 09:12:04 LabSZ sshd[24471]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.99.0.122 
+
+
+TrueUsername: user, last Login: SimpleDate(month=11, day=10, hour=9, minute=12, second=6)
+TrueType: ERRORData rządania: SimpleDate(month=11, day=10, hour=9, minute=12, second=6), użytkownik: None, adres ip: 103.99.0.122
+Dec 10 09:12:06 LabSZ sshd[24471]: error: Received disconnect from 103.99.0.122: 14: No more user authentication methods available. [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=12, second=6), użytkownik: operator, adres ip: 103.99.0.122
+Dec 10 09:12:06 LabSZ sshd[24473]: Invalid user operator from 103.99.0.122
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=12, second=6), użytkownik: operator, adres ip: None
+Dec 10 09:12:06 LabSZ sshd[24473]: input_userauth_request: invalid user operator [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=12, second=6), użytkownik: unknown, adres ip: None
+Dec 10 09:12:06 LabSZ sshd[24473]: pam_unix(sshd:auth): check pass; user unknown
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=12, second=6), użytkownik: None, adres ip: 103.99.0.122
+Dec 10 09:12:06 LabSZ sshd[24473]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.99.0.122 
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=12, second=8), użytkownik: admin, adres ip: 185.190.58.151
+Dec 10 09:12:08 LabSZ sshd[24455]: Invalid user admin from 185.190.58.151
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=12, second=8), użytkownik: admin, adres ip: None
+Dec 10 09:12:08 LabSZ sshd[24455]: input_userauth_request: invalid user admin [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=12, second=8), użytkownik: unknown, adres ip: None
+Dec 10 09:12:08 LabSZ sshd[24455]: pam_unix(sshd:auth): check pass; user unknown
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=12, second=8), użytkownik: None, adres ip: 185.190.58.151
+Dec 10 09:12:08 LabSZ sshd[24455]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=185.190.58.151 
+
+
+TrueUsername: operator, last Login: SimpleDate(month=11, day=10, hour=9, minute=12, second=8)
+TrueType: ERRORData rządania: SimpleDate(month=11, day=10, hour=9, minute=12, second=9), użytkownik: None, adres ip: 103.99.0.122
+Dec 10 09:12:09 LabSZ sshd[24473]: error: Received disconnect from 103.99.0.122: 14: No more user authentication methods available. [preauth]
+
+
+TrueUsername: admin, last Login: SimpleDate(month=11, day=10, hour=9, minute=12, second=10)
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=12, second=10), użytkownik: admin, adres ip: 103.99.0.122
+Dec 10 09:12:10 LabSZ sshd[24475]: Invalid user admin from 103.99.0.122
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=12, second=10), użytkownik: admin, adres ip: None
+Dec 10 09:12:10 LabSZ sshd[24475]: input_userauth_request: invalid user admin [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=12, second=10), użytkownik: unknown, adres ip: None
+Dec 10 09:12:10 LabSZ sshd[24475]: pam_unix(sshd:auth): check pass; user unknown
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=12, second=10), użytkownik: None, adres ip: 103.99.0.122
+Dec 10 09:12:10 LabSZ sshd[24475]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.99.0.122 
+
+
+TrueUsername: admin, last Login: SimpleDate(month=11, day=10, hour=9, minute=12, second=12)
+TrueType: ERRORData rządania: SimpleDate(month=11, day=10, hour=9, minute=12, second=12), użytkownik: None, adres ip: 103.99.0.122
+Dec 10 09:12:12 LabSZ sshd[24475]: error: Received disconnect from 103.99.0.122: 14: No more user authentication methods available. [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=12, second=12), użytkownik: root, adres ip: 103.99.0.122
+Dec 10 09:12:12 LabSZ sshd[24477]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.99.0.122  user=root
+
+
+FalseUsername: None, last Login: SimpleDate(month=11, day=10, hour=9, minute=12, second=15)
+TrueType: ERRORData rządania: SimpleDate(month=11, day=10, hour=9, minute=12, second=15), użytkownik: None, adres ip: 103.99.0.122
+Dec 10 09:12:15 LabSZ sshd[24477]: error: Received disconnect from 103.99.0.122: 14: No more user authentication methods available. [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=12, second=16), użytkownik: admin, adres ip: 103.99.0.122
+Dec 10 09:12:16 LabSZ sshd[24479]: Invalid user admin from 103.99.0.122
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=12, second=16), użytkownik: admin, adres ip: None
+Dec 10 09:12:16 LabSZ sshd[24479]: input_userauth_request: invalid user admin [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=12, second=16), użytkownik: unknown, adres ip: None
+Dec 10 09:12:16 LabSZ sshd[24479]: pam_unix(sshd:auth): check pass; user unknown
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=12, second=16), użytkownik: None, adres ip: 103.99.0.122
+Dec 10 09:12:16 LabSZ sshd[24479]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.99.0.122 
+
+
+TrueUsername: admin, last Login: SimpleDate(month=11, day=10, hour=9, minute=12, second=18)
+TrueType: ERRORData rządania: SimpleDate(month=11, day=10, hour=9, minute=12, second=18), użytkownik: None, adres ip: 103.99.0.122
+Dec 10 09:12:18 LabSZ sshd[24479]: error: Received disconnect from 103.99.0.122: 14: No more user authentication methods available. [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=12, second=19), użytkownik: unknown, adres ip: None
+Dec 10 09:12:19 LabSZ sshd[24455]: pam_unix(sshd:auth): check pass; user unknown
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=12, second=20), użytkownik: admin, adres ip: 103.99.0.122
+Dec 10 09:12:20 LabSZ sshd[24481]: Invalid user admin from 103.99.0.122
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=12, second=20), użytkownik: admin, adres ip: None
+Dec 10 09:12:20 LabSZ sshd[24481]: input_userauth_request: invalid user admin [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=12, second=20), użytkownik: unknown, adres ip: None
+Dec 10 09:12:20 LabSZ sshd[24481]: pam_unix(sshd:auth): check pass; user unknown
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=12, second=20), użytkownik: None, adres ip: 103.99.0.122
+Dec 10 09:12:20 LabSZ sshd[24481]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.99.0.122 
+
+
+TrueUsername: admin, last Login: SimpleDate(month=11, day=10, hour=9, minute=12, second=21)
+TrueUsername: admin, last Login: SimpleDate(month=11, day=10, hour=9, minute=12, second=21)
+TrueType: ERRORData rządania: SimpleDate(month=11, day=10, hour=9, minute=12, second=21), użytkownik: None, adres ip: 103.99.0.122
+Dec 10 09:12:21 LabSZ sshd[24481]: error: Received disconnect from 103.99.0.122: 14: No more user authentication methods available. [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=12, second=22), użytkownik: admin, adres ip: 103.99.0.122
+Dec 10 09:12:22 LabSZ sshd[24483]: Invalid user admin from 103.99.0.122
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=12, second=22), użytkownik: admin, adres ip: None
+Dec 10 09:12:22 LabSZ sshd[24483]: input_userauth_request: invalid user admin [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=12, second=22), użytkownik: unknown, adres ip: None
+Dec 10 09:12:22 LabSZ sshd[24483]: pam_unix(sshd:auth): check pass; user unknown
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=12, second=22), użytkownik: None, adres ip: 103.99.0.122
+Dec 10 09:12:22 LabSZ sshd[24483]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.99.0.122 
+
+
+TrueUsername: admin, last Login: SimpleDate(month=11, day=10, hour=9, minute=12, second=24)
+TrueType: ERRORData rządania: SimpleDate(month=11, day=10, hour=9, minute=12, second=24), użytkownik: None, adres ip: 103.99.0.122
+Dec 10 09:12:24 LabSZ sshd[24483]: error: Received disconnect from 103.99.0.122: 14: No more user authentication methods available. [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=12, second=24), użytkownik: ftp, adres ip: 103.99.0.122
+Dec 10 09:12:24 LabSZ sshd[24485]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.99.0.122  user=ftp
+
+
+FalseUsername: None, last Login: SimpleDate(month=11, day=10, hour=9, minute=12, second=26)
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=12, second=27), użytkownik: None, adres ip: 185.190.58.151
+Dec 10 09:12:27 LabSZ sshd[24455]: Connection closed by 185.190.58.151 [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=12, second=27), użytkownik: None, adres ip: 185.190.58.151
+Dec 10 09:12:27 LabSZ sshd[24455]: PAM 1 more authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=185.190.58.151 
+
+
+TrueType: ERRORData rządania: SimpleDate(month=11, day=10, hour=9, minute=12, second=27), użytkownik: None, adres ip: 103.99.0.122
+Dec 10 09:12:27 LabSZ sshd[24485]: error: Received disconnect from 103.99.0.122: 14: No more user authentication methods available. [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=12, second=28), użytkownik: monitor, adres ip: 103.99.0.122
+Dec 10 09:12:28 LabSZ sshd[24488]: Invalid user monitor from 103.99.0.122
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=12, second=28), użytkownik: monitor, adres ip: None
+Dec 10 09:12:28 LabSZ sshd[24488]: input_userauth_request: invalid user monitor [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=12, second=28), użytkownik: unknown, adres ip: None
+Dec 10 09:12:28 LabSZ sshd[24488]: pam_unix(sshd:auth): check pass; user unknown
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=12, second=28), użytkownik: None, adres ip: 103.99.0.122
+Dec 10 09:12:28 LabSZ sshd[24488]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.99.0.122 
+
+
+TrueUsername: monitor, last Login: SimpleDate(month=11, day=10, hour=9, minute=12, second=30)
+TrueType: ERRORData rządania: SimpleDate(month=11, day=10, hour=9, minute=12, second=30), użytkownik: None, adres ip: 103.99.0.122
+Dec 10 09:12:30 LabSZ sshd[24488]: error: Received disconnect from 103.99.0.122: 14: No more user authentication methods available. [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=12, second=30), użytkownik: ftpuser, adres ip: 103.99.0.122
+Dec 10 09:12:30 LabSZ sshd[24490]: Invalid user ftpuser from 103.99.0.122
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=12, second=30), użytkownik: ftpuser, adres ip: None
+Dec 10 09:12:30 LabSZ sshd[24490]: input_userauth_request: invalid user ftpuser [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=12, second=30), użytkownik: unknown, adres ip: None
+Dec 10 09:12:30 LabSZ sshd[24490]: pam_unix(sshd:auth): check pass; user unknown
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=12, second=30), użytkownik: None, adres ip: 103.99.0.122
+Dec 10 09:12:30 LabSZ sshd[24490]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.99.0.122 
+
+
+TrueUsername: ftpuser, last Login: SimpleDate(month=11, day=10, hour=9, minute=12, second=32)
+TrueType: ERRORData rządania: SimpleDate(month=11, day=10, hour=9, minute=12, second=32), użytkownik: None, adres ip: 103.99.0.122
+Dec 10 09:12:32 LabSZ sshd[24490]: error: Received disconnect from 103.99.0.122: 14: No more user authentication methods available. [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=12, second=33), użytkownik: pi, adres ip: 103.99.0.122
+Dec 10 09:12:33 LabSZ sshd[24492]: Invalid user pi from 103.99.0.122
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=12, second=33), użytkownik: pi, adres ip: None
+Dec 10 09:12:33 LabSZ sshd[24492]: input_userauth_request: invalid user pi [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=12, second=33), użytkownik: unknown, adres ip: None
+Dec 10 09:12:33 LabSZ sshd[24492]: pam_unix(sshd:auth): check pass; user unknown
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=12, second=33), użytkownik: None, adres ip: 103.99.0.122
+Dec 10 09:12:33 LabSZ sshd[24492]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.99.0.122 
+
+
+TrueUsername: pi, last Login: SimpleDate(month=11, day=10, hour=9, minute=12, second=35)
+TrueType: ERRORData rządania: SimpleDate(month=11, day=10, hour=9, minute=12, second=35), użytkownik: None, adres ip: 103.99.0.122
+Dec 10 09:12:35 LabSZ sshd[24492]: error: Received disconnect from 103.99.0.122: 14: No more user authentication methods available. [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=12, second=35), użytkownik: PlcmSpIp, adres ip: 103.99.0.122
+Dec 10 09:12:35 LabSZ sshd[24494]: Invalid user PlcmSpIp from 103.99.0.122
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=12, second=35), użytkownik: PlcmSpIp, adres ip: None
+Dec 10 09:12:35 LabSZ sshd[24494]: input_userauth_request: invalid user PlcmSpIp [preauth]
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=12, second=35), użytkownik: unknown, adres ip: None
+Dec 10 09:12:35 LabSZ sshd[24494]: pam_unix(sshd:auth): check pass; user unknown
+
+
+TrueType: OTHERS
+Data rządania: SimpleDate(month=11, day=10, hour=9, minute=12, second=35), użytkownik: None, adres ip: 103.99.0.122
+Dec 10 09:12:35 LabSZ sshd[24494]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.99.0.122 
+
+
+FalseUsername: PlcmSpIp, last Login: SimpleDate(month=11, day=10, hour=9, minute=12, second=37)

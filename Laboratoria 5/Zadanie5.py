@@ -12,7 +12,7 @@ def configure_parser(parser:argparse.ArgumentParser):
     #parser.add_argument("--filepath",required=True, help="Path to file with SSH logs")
     #parser.add_argument("--minLogLevel", required=False, help="Lowest log level")
 
-    subparsers = parser.add_subparsers(help="Decide witch function to add")
+    subparsers = parser.add_subparsers(help="Decide witch functions to add")
     parser.add_argument("--filepath",required=True, help="Path to file with SSH logs")
     parser.add_argument("--minLogLevel", required=False, choices=["DEBUG","INFO","WARNING","ERROR","CRITICAL"],help="Lowest log level")
 
@@ -38,6 +38,8 @@ if __name__=="__main__":
     configure_parser(parser)
 
     args = parser.parse_args()
+    dArguments = vars(args)
+
 
     functionsToExecuteByLine = []
     functionToExecuteAfterwards=[]
@@ -46,11 +48,11 @@ if __name__=="__main__":
         "groupUserLogs": textToNamedTupleAdapter(groupUsersLogs())
     }
 
-    dArguments = vars(args)
 
     functionsToExecuteByLine +=aggregationFunctions.values()
 
     minLogLevel = vars(logging).get(dArguments.get("minLogLevel"))
+
     if minLogLevel==None:
         minLogLevel=DEFAULT_LOG_LEVEL
         
