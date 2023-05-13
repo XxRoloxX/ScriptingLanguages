@@ -1,8 +1,8 @@
-import React, { ChangeEvent } from "react";
+import React, { ChangeEvent, MouseEventHandler, useRef } from "react";
 import { useEffect, useState } from "react";
 import "./Home.css";
-import { LogsWindow } from "../LogsWindow/LogsWindow";
-import { eel } from "../../eel";
+import { LogsWindow } from "./LogsWindow/LogsWindow";
+import { eel } from "../eel";
 import {
   FileSearchBar,
   SearchWrapper,
@@ -13,15 +13,24 @@ import {
   LogMasterDetailContainer,
   FilterInputWrapper,
   FilterInputLabel,
-  FilterButton
+  FilterButton,
+  ChangeIndexButtonsWrapper,
+  ChangeIndexButton
 } from "./Home.style";
+import { FocusedLogIndexContext } from "./FocusedLogIndexContext";
+import { LogDetails } from "./LogDetails/LogDetails";
+import { Placeholder } from "./Placeholder/Placeholder";
 
 export const Home = () => {
+
   const [logList, setLogList] = useState<string[]>([]);
   const [logPath, setLogPath] = useState("");
   const [filterStartDate, setFilterStartDate] = useState("");
   const [filterEndDate, setFilterEndDate] = useState("");
-  const [focusedLogIndex, setFocusedLogIndex] = useState(-1)
+  const [focusedLogIndex, setFocusedLogIndex] = useState(1)
+
+  const focusedLogRef = useRef<HTMLButtonElement | null>(null)
+
 
   const handleLogPath = (event: ChangeEvent<HTMLInputElement>) => {
     setLogPath(event.target.value);
@@ -38,11 +47,33 @@ export const Home = () => {
     console.log(filterStartDate+"  "+filterEndDate)
     eel.filterJournalByDates(filterStartDate, filterEndDate)(setLogList)
   }
+  const handleIncrementIndex = () => {
+    if(focusedLogIndex<logList.length){
+      setFocusedLogIndex((index)=>index+1)
+      executeScroll()
+    }
+    
+  }
+
+  const handleDecrementIndex = () => {
+    if(focusedLogIndex>0){
+      setFocusedLogIndex((index)=>index-1)
+      executeScroll()
+    }
+    
+  }
 
 
   const retrieveLogs = () => {
     eel.getLogJournalFromFile(logPath)(setLogList);
   };
+
+  const executeScroll = () => {
+    if(focusedLogRef.current){
+      focusedLogRef.current.scrollIntoView({ behavior: 'smooth', block: 'center' })
+    }
+    
+  }
 
   useEffect(() => {
     console.log(eel);
@@ -50,6 +81,7 @@ export const Home = () => {
 
   useEffect(() => {
     console.log("State has changed");
+    console.log(!logList)
   }, [logList]);
 
   return (
@@ -58,24 +90,44 @@ export const Home = () => {
         <FileSearchBar placeholder="Type filepath" onChange={handleLogPath} />
         <FileSearchButton onClick={retrieveLogs}>Open</FileSearchButton>
       </SearchWrapper>
-      <LogMasterDetailContainer>
-        <ListAndFilterContainer>
-          <FiltersWrapper>
 
-            <FilterInputWrapper>
-                <FilterInputLabel>Start date</FilterInputLabel>
-                <FilterDateInput type="date" onChange={handleFilterStartTime}/>
-            </FilterInputWrapper>
-            <FilterInputWrapper>
-                <FilterInputLabel>End date</FilterInputLabel>
-                <FilterDateInput type="date" onChange={handleFilterEndTime}/>
-            </FilterInputWrapper>
-            <FilterButton onClick={handleFilterSubmit}>Filter</FilterButton>
-            
-          </FiltersWrapper>
-          <LogsWindow logList={logList} handleLogList={setLogList} />
-        </ListAndFilterContainer>
-      </LogMasterDetailContainer>
+      {logList.length>0?<><FocusedLogIndexContext.Provider value={{focusedLogIndex,setFocusedLogIndex}}>
+
+        <LogMasterDetailContainer>
+          <ListAndFilterContainer>
+            <FiltersWrapper>
+
+              <FilterInputWrapper>
+                  <FilterInputLabel>Start date</FilterInputLabel>
+                  <FilterDateInput type="date" onChange={handleFilterStartTime}/>
+              </FilterInputWrapper>
+              <FilterInputWrapper>
+                  <FilterInputLabel>End date</FilterInputLabel>
+                  <FilterDateInput type="date" onChange={handleFilterEndTime}/>
+                  
+              </FilterInputWrapper>
+              <FilterInputWrapper>
+                <FilterButton onClick={handleFilterSubmit}>Filter</FilterButton>
+              </FilterInputWrapper>
+              
+              
+            </FiltersWrapper>
+            <LogsWindow logList={logList} handleLogList={setLogList} focusedLogIndex={focusedLogIndex} focusedLogRef={focusedLogRef}/>
+          </ListAndFilterContainer>
+
+          <LogDetails />
+
+          
+        </LogMasterDetailContainer>
+
+      </FocusedLogIndexContext.Provider>
+
+      <ChangeIndexButtonsWrapper>
+          <ChangeIndexButton onClick={handleDecrementIndex} isActive={focusedLogIndex<=0}>Previous</ChangeIndexButton>
+          <ChangeIndexButton onClick={handleIncrementIndex} isActive={focusedLogIndex>=logList.length}>Next</ChangeIndexButton>
+      </ChangeIndexButtonsWrapper></>: <Placeholder/>}
+
+      
     </>
   );
 };

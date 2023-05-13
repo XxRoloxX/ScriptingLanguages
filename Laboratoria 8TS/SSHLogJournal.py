@@ -41,8 +41,11 @@ class SSHLogJournal(object):
 
     def filterSSHLogJournal(self, filterMethod):
 
+
         filteredList = filter(
             filterMethod, object.__getattribute__(self, LOG_LIST_ATTRIBUTE))
+        
+
         return SSHLogJournal(filteredList)
 
     def getListOfRawLogs(self):
@@ -51,10 +54,17 @@ class SSHLogJournal(object):
 
 
     
-    def _dateAfterComparator(self,log, filterDate:str):
+    def _dateComparator(self,log, filterDate:str):
             filterDateArgs = filterDate.split("-")
-            filterSimpleDate = SimpleDate(filterDateArgs[1], filterDateArgs[2],0,0,0)
-            return simpleDateComparator(log.date, filterSimpleDate)>=0
+            
+            if(len(filterDateArgs)<3):
+                for _ in range(3-len(filterDateArgs)):
+                    filterDateArgs.append("0")
+
+            filterSimpleDate = SimpleDate(int(filterDateArgs[1])-1, int(filterDateArgs[2]),0,0,0)
+            #print(str(log.date)+"  "+str(filterSimpleDate))
+            #print(compareObjectsByAttributes(log.date, filterSimpleDate,["month","day"]))
+            return compareObjectsByAttributes(log.date, filterSimpleDate,["month","day"])
     
 
     def filterSSHLogJournalAfterDate(self, startDate:str, endDate:str):
@@ -62,13 +72,19 @@ class SSHLogJournal(object):
         compareStartDate=False
         compareEndDate=False
 
+        #print(startDate+" date"+endDate)
+
         if startDate:
             compareStartDate=True
         if endDate:
             compareEndDate=True
 
+        #print(str(compareStartDate)+"   comparable"+str(compareEndDate))
+
         def filterDates(log):
-            return (self._dateAfterComparator(log, startDate) or not compareStartDate) and (not self._dateAfterComparator(log, endDate) or not compareEndDate)
+            result = (not compareStartDate or self._dateComparator(log, startDate)>=0) and (not compareEndDate or not self._dateComparator(log, endDate)<=0)
+            #print(result)
+            return result
 
         return self.filterSSHLogJournal(filterDates)
 
@@ -100,6 +116,11 @@ class SSHLogJournal(object):
         else:
             return self.__getattr__(item)
 
+    def get(self, index):
+        if index<0 or index>=len(self._logList):
+            return None
+        else:
+            return self._logList[index]
 
 class SSHLogCreator(metaclass=abc.ABCMeta):
     @abc.abstractclassmethod

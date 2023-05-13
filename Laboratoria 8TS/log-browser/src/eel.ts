@@ -3,6 +3,8 @@ type PythonObject = Window & {
     set_host: (arg:string)=>void
     getLogJournalFromFile: (arg:string)=>(fun:(arg:string[])=>any) => any
     filterJournalByDates: (startDate:string, endDate:string)=>(fun:(logs:string[])=>any)=>any
+    getLogDetails: (logIndex: number) => (fun: (arg:any)=>any)=>any
+    getJoke: (jokeIndex:number)=>(fun: (joke:string)=>any)=>any
 }
 
 

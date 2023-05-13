@@ -34,6 +34,34 @@ def getMonthNumber(name):
             return 10
         case "Dec":
             return 11
+        
+def getMonthName(number):
+    #validateRequestParameters(requestParameters)
+    match number:
+        case 0:
+            return "Jan"
+        case 1:
+            return "Feb"
+        case 2:
+            return "Mar"
+        case 3:
+            return "Apr"
+        case 4:
+            return "May"
+        case 5:
+            return "Jun"
+        case 6:
+            return "Jul"
+        case 7:
+            return "Aug"
+        case 8:
+            return "Sep"
+        case 9:
+            return "Oct"
+        case 10:
+            return "Nov"
+        case 11:
+            return "Dec"
 
 def getNRandomInts(n,min,max):
     if max-min+1 < n:
@@ -132,7 +160,8 @@ def compareObjectsByAttributes(obj, otherObject, attrList:list):
 
     for attr in attrList:
         comparedAttributeResult = compareAttributes(obj,otherObject,attr)
-        if compareAttributes!=0:
+        print(str(obj)+" comparedObject"+str(otherObject)+" attr"+str(attr))
+        if comparedAttributeResult!=0:
             return comparedAttributeResult
     
     return 0

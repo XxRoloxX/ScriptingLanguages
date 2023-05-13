@@ -12,6 +12,11 @@ class SSHLogEntry(metaclass=abc.ABCMeta):
    def date(self):
       return convertLineToNamedtuple(self._rawLog).date
    
+   @property
+   def stringifiedDate(self):
+      splitedArguments = re.split("\s+",self._rawLog)
+      return " ".join(splitedArguments[:3])
+   
    @abc.abstractmethod
    def validate(self):
       pass
