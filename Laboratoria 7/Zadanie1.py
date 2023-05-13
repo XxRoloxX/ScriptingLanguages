@@ -27,7 +27,6 @@ def squareRoot(squaredNumber:float, precision:float):
         return  abs(currentApprox**2 - squaredNumber)<precision
     
     def innerSquareRoot(currentApprox: float):
-        print(currentApprox)
         return currentApprox if stopCriteria(currentApprox) else innerSquareRoot(nextStep(currentApprox))
     
     return innerSquareRoot(squaredNumber)

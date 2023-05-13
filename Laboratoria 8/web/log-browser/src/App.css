@@ -1,0 +1,8 @@
+
+body{
+    background-color: var(--background-grey);
+    overflow: hidden;
+}
+:root {
+    --background-grey: #192942;
+  }
