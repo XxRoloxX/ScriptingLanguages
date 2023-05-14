@@ -6,128 +6,181 @@ import { eel } from "../eel";
 import {
   FileSearchBar,
   SearchWrapper,
-  FileSearchButton,
   FilterDateInput,
   FiltersWrapper,
   ListAndFilterContainer,
   LogMasterDetailContainer,
   FilterInputWrapper,
   FilterInputLabel,
-  FilterButton,
   ChangeIndexButtonsWrapper,
-  ChangeIndexButton
+  ErrorLabel,
+  MaterialUIFilterButton,
+  MaterialUIForwardIndexButton,
+  MaterialUIBackwardIndexButton,
+  MaterialUIFileSearchButton
 } from "./Home.style";
 import { FocusedLogIndexContext } from "./FocusedLogIndexContext";
 import { LogDetails } from "./LogDetails/LogDetails";
 import { Placeholder } from "./Placeholder/Placeholder";
+import { LoaderRingAnimation } from "./Loader/Loader.style";
+
+const PAGINATION_DEFAULT_SIZE=10
+const PAGINATION_TRIGGER_INDEX = 5
 
 export const Home = () => {
 
   const [logList, setLogList] = useState<string[]>([]);
+  const [areLogsLoaded, setAreLogsLoaded] = useState(false);
+  const [incorrectLogPath, setIncorrectLogPath] = useState(false);
   const [logPath, setLogPath] = useState("");
   const [filterStartDate, setFilterStartDate] = useState("");
   const [filterEndDate, setFilterEndDate] = useState("");
-  const [focusedLogIndex, setFocusedLogIndex] = useState(1)
+  const [focusedLogIndex, setFocusedLogIndex] = useState(1);
+  const [lastLogRetrievedIndex, setLastLogRetrievedIndex] = useState(0);
+  const [isWaitingForData, setIsWaitingForData] = useState(false)
 
-  const focusedLogRef = useRef<HTMLButtonElement | null>(null)
-
+  const focusedLogRef = useRef<HTMLButtonElement | null>(null);
 
   const handleLogPath = (event: ChangeEvent<HTMLInputElement>) => {
     setLogPath(event.target.value);
   };
 
-  const handleFilterStartTime = (event: ChangeEvent<HTMLInputElement>)=> {
-    setFilterStartDate(event.target.value)
-  }
-  const handleFilterEndTime = (event: ChangeEvent<HTMLInputElement>)=> {
-    setFilterEndDate(event.target.value)
-  }
-  const handleFilterSubmit = () =>{
+  const handleFilterStartTime = (event: ChangeEvent<HTMLInputElement>) => {
+    setFilterStartDate(event.target.value);
+  };
+  const handleFilterEndTime = (event: ChangeEvent<HTMLInputElement>) => {
+    setFilterEndDate(event.target.value);
+  };
 
-    console.log(filterStartDate+"  "+filterEndDate)
-    eel.filterJournalByDates(filterStartDate, filterEndDate)(setLogList)
-  }
-  const handleIncrementIndex = () => {
-    if(focusedLogIndex<logList.length){
-      setFocusedLogIndex((index)=>index+1)
-      executeScroll()
+  const handleSetLogList = (logList: string[]) => {
+    if (logList !== null) {
+      setLogList(logList);
+      setAreLogsLoaded(true);
+      setIncorrectLogPath(false);
+      setFocusedLogIndex(0);
+    } else {
+      setAreLogsLoaded(false);
+      setIncorrectLogPath(true);
     }
-    
+
+    setIsWaitingForData(false)
+
+  };
+
+  const handleAppendLogList = (logList:string[])=>{
+
+    setLogList((logs)=>{ const newLogs = logs.concat(logList); setLastLogRetrievedIndex(newLogs.length-1) ;return newLogs})
   }
+
+  const handleFilterSubmit = () => {
+    setIsWaitingForData(true)
+    eel.filterJournalByDates(filterStartDate, filterEndDate)(handleSetLogList);
+  };
+  const handleIncrementIndex = () => {
+    if (focusedLogIndex < logList.length - 1) {
+      setFocusedLogIndex((index) => index + 1);
+      executeScroll();
+    }
+  };
 
   const handleDecrementIndex = () => {
-    if(focusedLogIndex>0){
-      setFocusedLogIndex((index)=>index-1)
-      executeScroll()
+    if (focusedLogIndex > 0) {
+      setFocusedLogIndex((index) => index - 1);
+      executeScroll();
     }
-    
-  }
-
+  };
 
   const retrieveLogs = () => {
-    eel.getLogJournalFromFile(logPath)(setLogList);
+    setIsWaitingForData(true)
+    eel.getLogJournalFromFile(logPath)(handleSetLogList);
+    setFilterStartDate("");
+    setFilterEndDate("");
+    setFocusedLogIndex(0)
+    setLastLogRetrievedIndex(0)
   };
 
   const executeScroll = () => {
-    if(focusedLogRef.current){
-      focusedLogRef.current.scrollIntoView({ behavior: 'smooth', block: 'center' })
+    if (focusedLogRef.current) {
+      focusedLogRef.current.scrollIntoView({
+        behavior: "smooth",
+        block: "center",
+      });
     }
-    
-  }
+  };
 
-  useEffect(() => {
-    console.log(eel);
-  }, []);
 
-  useEffect(() => {
-    console.log("State has changed");
-    console.log(!logList)
-  }, [logList]);
+  useEffect(()=>{
+    if(focusedLogIndex>=logList.length- PAGINATION_TRIGGER_INDEX){
+      eel.getNLogsFromFile(lastLogRetrievedIndex+1,PAGINATION_DEFAULT_SIZE)(handleAppendLogList)
+      setLastLogRetrievedIndex(lastLogRetrievedIndex+PAGINATION_DEFAULT_SIZE)
+    }
+  },[focusedLogIndex])
+
 
   return (
     <>
+
       <SearchWrapper>
         <FileSearchBar placeholder="Type filepath" onChange={handleLogPath} />
-        <FileSearchButton onClick={retrieveLogs}>Open</FileSearchButton>
+        <MaterialUIFileSearchButton onClick={retrieveLogs} />
       </SearchWrapper>
+      {isWaitingForData?<LoaderRingAnimation/>:""}
+      {incorrectLogPath ? <ErrorLabel>Incorrect filepath </ErrorLabel> : ""}
+    
+      {areLogsLoaded ? (
+        <>
+          <FocusedLogIndexContext.Provider
+            value={{ focusedLogIndex, setFocusedLogIndex }}
+          >
+            <LogMasterDetailContainer>
+              <ListAndFilterContainer>
+                <FiltersWrapper>
+                  <FilterInputWrapper>
+                    <FilterInputLabel>From</FilterInputLabel>
+                    <FilterDateInput
+                      type="date"
+                      onChange={handleFilterStartTime}
+                      value={filterStartDate}
+                    />
+                  </FilterInputWrapper>
+                  <FilterInputWrapper>
+                    <FilterInputLabel>To</FilterInputLabel>
+                    <FilterDateInput
+                      type="date"
+                      onChange={handleFilterEndTime}
+                      value={filterEndDate}
+                    />
+                  </FilterInputWrapper>
+                  <FilterInputWrapper>
+                    <MaterialUIFilterButton onClick={handleFilterSubmit} />
+                  </FilterInputWrapper>
+                </FiltersWrapper>
+                <LogsWindow
+                  logList={logList}
+                  handleLogList={setLogList}
+                  focusedLogIndex={focusedLogIndex}
+                  focusedLogRef={focusedLogRef}
+                />
+              </ListAndFilterContainer>
 
-      {logList.length>0?<><FocusedLogIndexContext.Provider value={{focusedLogIndex,setFocusedLogIndex}}>
+              <LogDetails />
+            </LogMasterDetailContainer>
+          </FocusedLogIndexContext.Provider>
 
-        <LogMasterDetailContainer>
-          <ListAndFilterContainer>
-            <FiltersWrapper>
-
-              <FilterInputWrapper>
-                  <FilterInputLabel>Start date</FilterInputLabel>
-                  <FilterDateInput type="date" onChange={handleFilterStartTime}/>
-              </FilterInputWrapper>
-              <FilterInputWrapper>
-                  <FilterInputLabel>End date</FilterInputLabel>
-                  <FilterDateInput type="date" onChange={handleFilterEndTime}/>
-                  
-              </FilterInputWrapper>
-              <FilterInputWrapper>
-                <FilterButton onClick={handleFilterSubmit}>Filter</FilterButton>
-              </FilterInputWrapper>
-              
-              
-            </FiltersWrapper>
-            <LogsWindow logList={logList} handleLogList={setLogList} focusedLogIndex={focusedLogIndex} focusedLogRef={focusedLogRef}/>
-          </ListAndFilterContainer>
-
-          <LogDetails />
-
-          
-        </LogMasterDetailContainer>
-
-      </FocusedLogIndexContext.Provider>
-
-      <ChangeIndexButtonsWrapper>
-          <ChangeIndexButton onClick={handleDecrementIndex} isActive={focusedLogIndex<=0}>Previous</ChangeIndexButton>
-          <ChangeIndexButton onClick={handleIncrementIndex} isActive={focusedLogIndex>=logList.length}>Next</ChangeIndexButton>
-      </ChangeIndexButtonsWrapper></>: <Placeholder/>}
-
-      
+          <ChangeIndexButtonsWrapper>
+            <MaterialUIBackwardIndexButton
+              onClick={handleDecrementIndex}
+              isActive={focusedLogIndex <= 0}
+            />
+            <MaterialUIForwardIndexButton
+              onClick={handleIncrementIndex}
+              isActive={focusedLogIndex >= logList.length - 1}
+            />
+          </ChangeIndexButtonsWrapper>
+        </>
+      ) : (
+        <Placeholder />
+      )}
     </>
   );
 };

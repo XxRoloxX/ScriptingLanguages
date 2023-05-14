@@ -3,9 +3,7 @@ import { eel } from "../../eel";
 import { FocusedLogIndexContext } from "../FocusedLogIndexContext";
 import { LogDetailsContainer, LogDetailsLabel, SingleLogDetail, SingleLogLabelWrapper } from "./LogDetails.style";
 
-type LogDetailsProps = {
-  focusedLogIndex: number;
-};
+
 type LogDetailsResult = {
   date: string;
   ip: string;

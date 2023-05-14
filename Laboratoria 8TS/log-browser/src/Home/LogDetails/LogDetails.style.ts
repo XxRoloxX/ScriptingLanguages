@@ -7,12 +7,13 @@ export const LogDetailsContainer = styled("div")`
     justify-content: center;
     margin: 0.5rem;
     margin: 10vh;
-    height: 55vh;
+    height: 50vh;
 `
 export const SingleLogDetail = styled("div")`
-    height: 2rem;
+    height: 1rem;
     margin: 0.5rem;
     padding: 0.5rem;
+    width:10rem;
     font-size: 1rem;
     text-align: center;
     background: url(${gradient});

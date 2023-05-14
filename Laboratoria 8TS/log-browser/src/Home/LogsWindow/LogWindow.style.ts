@@ -1,9 +1,14 @@
 import styled from "styled-components";
+import gradient from "../../assets/wms-dev-original-cubism-gradient.png"
+
+export const activeLogColor =  "#22317a"
+export const unActiveLogColor ="#132045"
+
 
 export const SingleLog = styled("button")<{focusedLog:boolean}>`
     font-size: 0.5rem;
     text-align: center;
-    background-color: ${p => (p.focusedLog ? "#1d8541" : "#132045")};
+    background-color: ${p => (p.focusedLog ? activeLogColor : unActiveLogColor)};
     box-shadow: none;
     border-color:transparent;
     color:white;
@@ -14,9 +19,8 @@ export const SingleLog = styled("button")<{focusedLog:boolean}>`
     margin-left:0.5rem;
     width: 25rem;
     &:hover {
-    //background-image: linear-gradient(purple, blue)
-    background-color: #1d8541;
     transform: scale(1.03);
+    background-color: ${activeLogColor} ;
   }
 `
 

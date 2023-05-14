@@ -1,0 +1,147 @@
+import abc
+from newLogTools.Zadanie1 import SSHLogAcceptedPassword, SSHLogEntry, SSHLogError, SSHLogFailedPassword, SSHLogOther
+from newLogTools.logUtils import *
+
+LOG_LIST_ATTRIBUTE = "_logList"
+FILTER_METHOD_NAME = "filterSSHLogJournal"
+
+
+class SSHLogJournal(object):
+
+    def __init__(self, *args):
+
+        if (len(args) == 1 and isinstance(args, object)):
+            self._logList = []
+            for el in args[0]:
+                if (isinstance(el, SSHLogEntry) and el.validate()):
+                    self._logList.append(el)
+        else:
+            self._logList = []
+
+    def _getCreator(self, newRawlog):
+        logType = getMessageFromLog(convertLineToNamedtuple(newRawlog))
+        match logType:
+            case MESSAGE_TYPE.SUCCESSFUL_LOGIN:
+                return SSHLogAcceptedPasswordCreator()
+            case MESSAGE_TYPE.WRONG_PASSWORD:
+                return SSHLogFailedPasswordCreator()
+            case MESSAGE_TYPE.ERROR:
+                return SSHLogErrorCreator()
+            case _:
+                return SSHLogOtherCreator()
+
+    def append(self, newRawLog: str):
+        creator = self._getCreator(newRawLog)
+        newLog = creator.createLog(newRawLog)
+
+        if newLog.validate():
+            object.__getattribute__(self, LOG_LIST_ATTRIBUTE).append(newLog)
+        else:
+            raise Exception("Not appropriate log record")
+
+    def filterSSHLogJournal(self, filterMethod):
+
+
+        filteredList = filter(
+            filterMethod, object.__getattribute__(self, LOG_LIST_ATTRIBUTE))
+        
+
+        return SSHLogJournal(filteredList)
+
+    def getListOfRawLogs(self, logLength):
+        return [log.rawLog[0:logLength] for log in self._logList]
+    
+
+
+    
+    def _dateComparator(self,log, filterDate:str):
+            filterDateArgs = filterDate.split("-")
+            
+            if(len(filterDateArgs)<3):
+                for _ in range(3-len(filterDateArgs)):
+                    filterDateArgs.append("0")
+
+            filterSimpleDate = SimpleDate(int(filterDateArgs[1])-1, int(filterDateArgs[2]),0,0,0)
+            
+            return compareObjectsByAttributes(log.date, filterSimpleDate,["month","day"])
+    
+
+    def filterSSHLogJournalAfterDate(self, startDate:str, endDate:str):
+
+        compareStartDate=False
+        compareEndDate=False
+
+        #print(startDate+" date"+endDate)
+
+        if startDate:
+            compareStartDate=True
+        if endDate:
+            compareEndDate=True
+
+        #print(str(compareStartDate)+"   comparable"+str(compareEndDate))
+
+        def filterDates(log):
+            result = (not compareStartDate or self._dateComparator(log, startDate)>=0) and (not compareEndDate or self._dateComparator(log, endDate)<=0)
+            #print(result)
+            return result
+
+        return self.filterSSHLogJournal(filterDates)
+
+
+        
+
+
+    def filterSSHLogJournalBasedOnIP(self, ip):
+        return self.filterSSHLogJournal(lambda log: log.ip == ip)
+
+    def __len__(self):
+        return len(self._logList)
+
+    def __iter__(self):
+        return iter(self._logList)
+
+    def __contains__(self, element):
+        return element in self._logList
+
+    def getSortedJournal(self):
+        return SSHLogJournal(sorted(self._logList))
+
+    def __getattr__(self, attr: str):
+        return object.__getattribute__(self, FILTER_METHOD_NAME)(lambda log: attr in log._rawLog)
+
+    def __getitem__(self, item):
+        if isinstance(item, slice):
+            return SSHLogJournal(object.__getattribute__(self, LOG_LIST_ATTRIBUTE)[item.start:item.stop:item.step])
+        else:
+            return self.__getattr__(item)
+
+    def get(self, index):
+        if index<0 or index>=len(self._logList):
+            return None
+        else:
+            return self._logList[index]
+
+class SSHLogCreator(metaclass=abc.ABCMeta):
+    @abc.abstractclassmethod
+    def createLog(self, rawLog):
+        pass
+
+
+class SSHLogFailedPasswordCreator(SSHLogCreator):
+    def createLog(self, rawLog):
+        return SSHLogFailedPassword(rawLog)
+
+
+class SSHLogAcceptedPasswordCreator(SSHLogCreator):
+    def createLog(self, rawLog):
+        return SSHLogAcceptedPassword(rawLog)
+
+
+class SSHLogErrorCreator(SSHLogCreator):
+    def createLog(self, rawLog):
+        return SSHLogError(rawLog)
+
+
+class SSHLogOtherCreator(SSHLogCreator):
+    def createLog(self, rawLog):
+        return SSHLogOther(rawLog)

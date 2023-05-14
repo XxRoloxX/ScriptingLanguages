@@ -1,5 +1,5 @@
 import React, { useEffect, useReducer, useState } from "react"
-import { JokeWrapper, NewJokeButton, PlaceholderContainer } from "./Placeholder.styles"
+import { JokeWrapper, MaterialUINewJokeButton, NewJokeButton, PlaceholderContainer } from "./Placeholder.styles"
 import { eel } from "../../eel"
 
 
@@ -21,7 +21,7 @@ export const Placeholder = () => {
 
     return <PlaceholderContainer>
         <JokeWrapper>{joke}</JokeWrapper>
-        <NewJokeButton onClick={handleNewJoke}>Get new joke</NewJokeButton>
+        <MaterialUINewJokeButton onClick={handleNewJoke}/>
     </PlaceholderContainer>
 
 

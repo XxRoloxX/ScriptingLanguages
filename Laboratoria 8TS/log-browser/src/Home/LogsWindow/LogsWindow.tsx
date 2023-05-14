@@ -12,7 +12,7 @@ type Logs = {
 };
 
 export const LogsWindow = (props: Logs) => {
-  const [clickedLog, setClickedLog] = useState<string>("");
+  
   const { focusedLogIndex, setFocusedLogIndex } = useContext(
     FocusedLogIndexContext
   );
