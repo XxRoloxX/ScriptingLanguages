@@ -24,7 +24,7 @@ import { LogDetails } from "./LogDetails/LogDetails";
 import { Placeholder } from "./Placeholder/Placeholder";
 import { LoaderRingAnimation } from "./Loader/Loader.style";
 
-const PAGINATION_DEFAULT_SIZE=10
+const PAGINATION_DEFAULT_SIZE=15
 const PAGINATION_TRIGGER_INDEX = 5
 
 export const Home = () => {
@@ -150,8 +150,6 @@ export const Home = () => {
                       onChange={handleFilterEndTime}
                       value={filterEndDate}
                     />
-                  </FilterInputWrapper>
-                  <FilterInputWrapper>
                     <MaterialUIFilterButton onClick={handleFilterSubmit} />
                   </FilterInputWrapper>
                 </FiltersWrapper>

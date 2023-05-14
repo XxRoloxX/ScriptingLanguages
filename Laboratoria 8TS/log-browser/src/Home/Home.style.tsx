@@ -1,8 +1,8 @@
 import styled from "styled-components";
 import React, { MouseEventHandler } from 'react'
 
-export const MaterialUISpan = (props: {type:string}) => {
-    return <span className="material-symbols-outlined" style={{display:"flex", alignItems:"center", justifyContent:"center"}}>{props.type}  </span>
+export const MaterialUISpan = (props: {type:string, size?:string}) => {
+    return <span className="material-symbols-outlined" style={{display:"flex", alignItems:"center", justifyContent:"center", fontSize:props.size}}>{props.type}  </span>
 }
 
 
@@ -57,16 +57,22 @@ export const LogMasterDetailContainer = styled("div")`
     display:flex;
     flex-direction: row;
     color:white;
-    margin: 0.5rem;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    height:80vh;
+    width: max(95vw,50rem);
 `
 export const FilterButton = styled("button")`
-    border-radius: 0.7rem;
     text-align: center;
-    width: 5rem;
-    height:1.5rem;
+    margin:auto;
+    margin-left: 1rem;
     background-color: transparent;
     border-width: 0;
     color:white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
     &:hover{
         transform: scale(1.1);
     }
@@ -126,6 +132,12 @@ export const MaterialUIBackwardIndexButton = (props: {isActive:boolean, onClick:
 
 export const ChangeIndexButtonsWrapper = styled(FilterInputWrapper)`
     justify-content: space-around;
+    position: absolute;
+    bottom: 1rem;
+    left: 0;
+    right: 0;
+    margin-left:auto;
+    margin-right:auto;
 `
 export const ErrorLabel = styled("label")`
     color:red;

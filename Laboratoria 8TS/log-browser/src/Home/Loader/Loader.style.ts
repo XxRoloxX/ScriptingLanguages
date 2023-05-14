@@ -9,12 +9,15 @@ const SpinningAnimation = keyframes`
 `
 
 export const LoaderRingAnimation = styled("div")`
-  position: fixed;
-  top: 20vh;
-  left: 45vw;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin:auto;
   z-index: 10;
-  border: 5px solid transparent; /* Light grey */
-  border-top: 5px solid white; /* Blue */
+  border: 5px solid transparent;
+  border-top: 5px solid white; 
   border-radius: 50%;
   background-color: transparent;
   width: 80px;

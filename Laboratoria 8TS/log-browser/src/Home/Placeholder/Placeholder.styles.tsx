@@ -23,21 +23,21 @@ export const JokeWrapper = styled("div")`
 
 `
 export const NewJokeButton = styled("button")`
-    width: 5rem;
     border-radius: 0.5rem;
     text-align: center;
     background-color: transparent;
     color:white;
     border-width: 0;
     opacity: 0.5;
+    margin-bottom: 10rem;
     &:hover{
-        transform: scale(1.2);
+        transform: scale(1.5);
     }
 `
 
 
 export const MaterialUINewJokeButton = (props: {onClick: MouseEventHandler<HTMLButtonElement>})=>{
     return <NewJokeButton onClick={props.onClick}>
-        <MaterialUISpan type={"sync"}/>
+        <MaterialUISpan type={"sync"} size={"4rem"}/>
     </NewJokeButton>
 }

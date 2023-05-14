@@ -5,7 +5,7 @@ from newLogTools.Zadanie1 import *
 mainJournal = [SSHLogJournal()]
 filteredJournal = [SSHLogJournal()]
 
-INITIAL_LOGS_RETRIEVED = 10
+INITIAL_LOGS_RETRIEVED = 15
 DEFAULT_LOG_LENGTH =100
 
 
