@@ -10,4 +10,6 @@ type EelObject = Window & {
 
 
 export const eel = window["eel" as any] as EelObject;
-eel.set_host("ws://localhost:8888")
+export const EEL_WEBSOCKET_ADDRESS = "ws://localhost:8888";
+
+eel.set_host(EEL_WEBSOCKET_ADDRESS)

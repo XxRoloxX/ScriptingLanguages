@@ -4,6 +4,8 @@ from subprocess import call
 from time import sleep
 from exposedFunctions import *
 
+FRONT_PORT = 3000
+EEL_PORT = 8888
 
 
 def start_web():
@@ -13,7 +15,7 @@ def start_web():
 def start_eel():
     sleep(3)
     eel.init('client')
-    eel.start({"port": 3000}, host="localhost", port=8888)
+    eel.start({"port": FRONT_PORT}, host="localhost", port=EEL_PORT)
     
 
 if __name__ == '__main__':
