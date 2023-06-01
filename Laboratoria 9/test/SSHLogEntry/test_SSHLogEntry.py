@@ -25,7 +25,36 @@ def test_time_extraction(log:str, expected_time:'SimpleDate'):
     ("Jan  2 03:58:39 LabSZ sshd[22856]: Disconnecting: Too many authentication failures for root [preauth]", None),
     ("Jan  5 12:27:51 LabSZ sshd[18912]: PAM service(sshd) ignoring max retries; 6 > 3", None),
     ("Jan  7 17:22:01 LabSZ sshd[30291]: pam_unix(sshd:session): session opened for user jmzhu by (uid=0)", None),
-    ("Dec 17 14:51:06 LabSZ sshd[4604]: Failed password for invalid user admin from 666.999.222.111 port 50426 ssh2", None)
 ])
 def test_ip_extraction(log:str, expected_ip:Union[str,None]):
+    assert get_log_entry(log).ip == expected_ip
+
+
+
+
+@pytest.mark.parametrize("log, expected_ip", [
+    ("Dec 10 07:07:38 LabSZ sshd[24206]: Invalid user test9 from 52.80.34.196","52.80.34.196"),
+    ("Dec 17 14:51:06 LabSZ sshd[4604]: Failed password for invalid user admin from 183.96.119.62 port 50426 ssh2", "183.96.119.62")
+])
+
+def test_correct_ip_extraction(log:str, expected_ip:Union[str,None]):
+    assert get_log_entry(log).ip == expected_ip
+
+@pytest.mark.parametrize("log, expected_ip", [
+    ("Dec 17 14:51:06 LabSZ sshd[4604]: Failed password for invalid user admin from 666.999.222.111 port 50426 ssh2", None),
+    ("Dec 10 07:07:38 LabSZ sshd[24206]: Invalid user test9 from 520.843.0.196",None),
+])
+
+def test_incorrect_ip_extraction(log:str, expected_ip:Union[str,None]):
+    assert get_log_entry(log).ip == expected_ip
+
+
+
+@pytest.mark.parametrize("log, expected_ip", [
+    ("Jan  2 03:58:39 LabSZ sshd[22856]: Disconnecting: Too many authentication failures for root [preauth]", None),
+    ("Jan  5 12:27:51 LabSZ sshd[18912]: PAM service(sshd) ignoring max retries; 6 > 3", None),
+    ("Jan  7 17:22:01 LabSZ sshd[30291]: pam_unix(sshd:session): session opened for user jmzhu by (uid=0)", None),
+])
+
+def test_absent_ip_extraction(log:str, expected_ip:Union[str,None]):
     assert get_log_entry(log).ip == expected_ip

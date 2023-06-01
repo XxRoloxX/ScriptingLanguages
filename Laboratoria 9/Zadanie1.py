@@ -3,7 +3,7 @@ from logUtils import *
 from parsingUtils import *
 from ipaddress import *
 from typing import *
-from re import *
+import re
 
 class SSHLogEntry(metaclass=abc.ABCMeta):
    def  __init__(self:'SSHLogEntry',rawLog:str)->None:

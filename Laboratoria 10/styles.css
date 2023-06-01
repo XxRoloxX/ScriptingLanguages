@@ -1,0 +1,19 @@
+#directory_tree_container{
+    width: 0.5fr;
+}
+#stations_list_container{
+    width:2fr
+}
+.station_label{
+    text-align: center;
+    width: 1fr;
+}
+#station_stats_container{
+    width: 1fr;
+}
+DataTable{
+    text-align: justify;
+}
+Vertical{
+    border: solid blue;
+}
