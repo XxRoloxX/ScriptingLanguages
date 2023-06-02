@@ -2,32 +2,15 @@
 from typing import List
 from textual import on
 from textual.app import App, ComposeResult
-from textual.message import Message
-from textual.widgets import Label, Button, Header, Footer,Static, Input,DirectoryTree, TextLog, Tree, ListView, ListItem
+from textual.widgets import  Header, Footer, Input,DirectoryTree
 from textual.containers import Horizontal, Vertical, ScrollableContainer, Center
 from textual.widgets import DataTable
 from textual.reactive import reactive
-from textual.widget import Widget
+from custom_widgets import DatabaseLabel, StatisticsLabel
 from models import Stations
 from load_data import RentalsReader
-from sqlite3 import DatabaseError
 
 
-class StationsList(ListView):
-    stations: List["Stations"] = reactive([Stations(station_id="1", station_name="One")])
-
-    def render(self)->str:
-        return str(self.stations[0])
-
-class DatabaseLabel(Label):
-    database_path: str = reactive("")
-    def render(self)->str:
-        return "Select database: "+str(self.database_path)
-
-class StatisticsLabel(Label):
-    station_name: str =reactive(None)
-    def render(self)->str:
-        return str(self.station_name)
 
 class RentalsApp(App):
 
