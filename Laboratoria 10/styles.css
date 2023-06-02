@@ -2,7 +2,7 @@
     width: 0.5fr;
 }
 #stations_list_container{
-    width:2fr
+    width:1fr
 }
 .station_label{
     text-align: center;
@@ -15,5 +15,8 @@ DataTable{
     text-align: justify;
 }
 Vertical{
-    border: solid blue;
+    border: tall blue;
+}
+StatisticsLabel{
+    text-align: left;
 }

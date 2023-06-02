@@ -1,3 +1,4 @@
+import datetime
 import sys
 from typing import Any, List,Optional
 from create_database import DATABASE_TYPE, DATABASE_URL,DEFAULT_DB_NAME
@@ -34,19 +35,39 @@ class RentalsReader(DataBaseHandler):
         self.validate_session()
         selected_station = self.session.query(func.avg(Rentals.duration).label('average_duration'))\
             .filter(Rentals.rental_station_id==Stations.station_id)\
-            .filter(Stations.station_name==station_name)
+            .filter(Stations.station_name==station_name)\
+            .all()
         return selected_station[0][0]
     
-    def get_average_time_of_arrival_from_ending_station(self,station_name)->float:
+    def get_average_time_of_travel_from_ending_station(self,station_name)->float:
         self.validate_session()
         selected_station = self.session.query(func.avg(Rentals.duration).label('average_duration'))\
             .filter(Rentals.return_station_id==Stations.station_id)\
-            .filter(Stations.station_name==station_name)
-        return selected_station[0][0]
+            .filter(Stations.station_name==station_name)\
+            .first()
+        return selected_station[0]
     
-    def get_list_of_stations(self):
+    def get_number_of_unique_bikes_at_station(self,station_name)->float:
         self.validate_session()
-        return self.session.query(Stations).all()
+        selected_station = self.session.query(Rentals.bike_number)\
+            .filter(Rentals.return_station_id==Stations.station_id)\
+            .filter(Stations.station_name==station_name)\
+            .group_by(Rentals.bike_number)\
+            .count()
+        return selected_station
+    
+    def get_longest_rental_from_station(self,station_name)->datetime.datetime:
+        self.validate_session()
+        last_rental = self.session.query(func.max(Rentals.duration).label('longest_rental'))\
+            .filter(Rentals.rental_station_id==Stations.station_id)\
+            .filter(Stations.station_name==station_name)\
+            .first()
+        return last_rental[0]
+
+    
+    def get_list_of_stations(self, filter=""):
+        self.validate_session()
+        return self.session.query(Stations).filter(Stations.station_name.contains(filter))
 
         
         
